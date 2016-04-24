@@ -73,3 +73,51 @@ resource "github_team_membership" "ictsc6-kurochan" {
   username = "${github_membership.kurochan.username}"
   role = "member"
 }
+
+resource "github_team_membership" "ictsc6-knium" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.knium.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc6-h-otter" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.h-otter.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc6-suzue" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.suzue.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc6-yabunon" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.yabunon.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc6-int-tt" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.int-tt.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc6-yuukinetwork" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.yuukinetwork.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc6-a-r-g-v" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.a-r-g-v.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc6-kyontan" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.kyontan.username}"
+  role = "member"
+}
