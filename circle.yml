@@ -6,11 +6,11 @@ dependencies:
     - if [ ! -e ~/terraform/terraform ]; then wget -O ~/terraform/terraform.zip https://releases.hashicorp.com/terraform/0.6.15/terraform_0.6.15_linux_amd64.zip; fi
     - if [ ! -e ~/terraform/terraform ]; then unzip ~/terraform/terraform.zip -d ~/terraform; fi
 
-test:
-  override:
-    - ~/terraform/terraform plan
-
 deployment:
+  master:
+    branch: master
+    commands:
+      - ~/terraform/terraform plan
   production:
     branch: production
     commands:
