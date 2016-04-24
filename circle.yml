@@ -1,0 +1,19 @@
+dependencies:
+  cache_directories:
+    - "~/terraform"
+  pre:
+    - if [ ! -e ~/terraform/terraform ]; then mkdir -p ~/terraform; fi
+    - if [ ! -e ~/terraform/terraform ]; then wget -O ~/terraform/terraform.zip https://releases.hashicorp.com/terraform/0.6.15/terraform_0.6.15_linux_amd64.zip; fi
+    - if [ ! -e ~/terraform/terraform ]; then unzip ~/terraform/terraform.zip -d ~/terraform; fi
+
+  override:
+    - ~/terraform/terraform plan
+
+test:
+  override:
+    - ~/terraform/terraform apply
+    - git config --global user.email "account@icttoracon.net"
+    - git config --global user.name "ictsc-admin"
+    - git add -f terraform.tfstate
+    - git commit -m "update terraform state"
+    - git push origin master
