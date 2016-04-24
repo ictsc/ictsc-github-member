@@ -15,5 +15,5 @@ test:
     - git config --global user.email "account@icttoracon.net"
     - git config --global user.name "ictsc-admin"
     - git add -f terraform.tfstate
-    - git commit -m "update terraform state"
+    - git commit -m "update terraform state [ci skip]"
     - git push origin master
