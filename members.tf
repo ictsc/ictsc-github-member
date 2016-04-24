@@ -157,3 +157,38 @@ resource "github_membership" "hyr3k" {
     username = "hyr3k"
     role = "member"
 }
+
+resource "github_membership" "knium" {
+    username = "Knium"
+    role = "member"
+}
+
+resource "github_membership" "h-otter" {
+    username = "h-otter"
+    role = "member"
+}
+
+resource "github_membership" "suzue" {
+    username = "Suzue"
+    role = "member"
+}
+
+resource "github_membership" "int-tt" {
+    username = "int-tt"
+    role = "member"
+}
+
+resource "github_membership" "yuukinetwork" {
+    username = "yuukinetwork"
+    role = "member"
+}
+
+resource "github_membership" "a-r-g-v" {
+    username = "a-r-g-v"
+    role = "member"
+}
+
+resource "github_membership" "kyontan" {
+    username = "kyontan"
+    role = "member"
+}
