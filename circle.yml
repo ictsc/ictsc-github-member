@@ -11,9 +11,9 @@ dependencies:
 
 test:
   override:
-    - ~/terraform/terraform apply
-    - git config --global user.email "account@icttoracon.net"
-    - git config --global user.name "ictsc-admin"
-    - git add -f terraform.tfstate
-    - git commit -m "update terraform state [ci skip]"
-    - git push origin master
+    - if [ "${CIRCLE_BRANCH-}" = "master" ]; then ~/terraform/terraform apply; fi
+    - if [ "${CIRCLE_BRANCH-}" = "master" ]; then git config --global user.email "account@icttoracon.net"; fi
+    - if [ "${CIRCLE_BRANCH-}" = "master" ]; then git config --global user.name "ictsc-admin"; fi
+    - if [ "${CIRCLE_BRANCH-}" = "master" ]; then git add -f terraform.tfstate; fi
+    - if [ "${CIRCLE_BRANCH-}" = "master" ]; then git commit -m "update terraform state [ci skip]"; fi
+    - if [ "${CIRCLE_BRANCH-}" = "master" ]; then git push origin master; fi
