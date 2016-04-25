@@ -23,4 +23,4 @@ deployment:
       - git config --global user.name "ictsc-admin"
       - git add -f terraform.tfstate
       - git commit -m "update terraform state [ci skip]"
-      - git push origin master
+      - git push origin production
