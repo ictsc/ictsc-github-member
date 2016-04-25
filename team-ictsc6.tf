@@ -121,3 +121,9 @@ resource "github_team_membership" "ictsc6-kyontan" {
   username = "${github_membership.kyontan.username}"
   role = "member"
 }
+
+resource "github_team_membership" "ictsc6-chalkygames123" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.chalkygames123.username}"
+  role = "member"
+}
