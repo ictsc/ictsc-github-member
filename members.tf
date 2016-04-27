@@ -200,5 +200,5 @@ resource "github_membership" "chalkygames123" {
 
 resource "github_membership" "takeshi-seki" {
     username = "takeshi-seki"
-    role = "memver"
+    role = "member"
 }
