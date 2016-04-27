@@ -74,7 +74,7 @@ resource "github_membership" "mbook-x86" {
 }
 
 resource "github_membership" "miyao11" {
-    username = "miyao11"
+    username = "Miyao11"
     role = "member"
 }
 

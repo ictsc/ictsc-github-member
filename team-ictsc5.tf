@@ -80,9 +80,9 @@ resource "github_team_membership" "ictsc5-mbook-x86" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc5-Miyao11" {
+resource "github_team_membership" "ictsc5-miyao11" {
   team_id = "${github_team.ictsc5.id}"
-  username = "${github_membership.Miyao11.username}"
+  username = "${github_membership.miyao11.username}"
   role = "member"
 }
 
