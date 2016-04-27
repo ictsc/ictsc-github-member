@@ -73,8 +73,8 @@ resource "github_membership" "mbook-x86" {
     role = "member"
 }
 
-resource "github_membership" "Miyao11" {
-    username = "Miyao11"
+resource "github_membership" "miyao11" {
+    username = "miyao11"
     role = "member"
 }
 
@@ -196,4 +196,9 @@ resource "github_membership" "kyontan" {
 resource "github_membership" "chalkygames123" {
     username = "chalkygames123"
     role = "member"
+}
+
+resource "github_membership" "takeshi-seki" {
+    username = "takeshi-seki"
+    role = "memver"
 }
