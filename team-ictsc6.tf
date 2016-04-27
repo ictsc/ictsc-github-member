@@ -18,6 +18,12 @@ resource "github_team_repository" "ictsc6-ictsc-general" {
     permission = "push"
 }
 
+resource "github_team_repository" "ictsc6-ictsc-problems" {
+    team_id = "${github_team.ictsc6.id}"
+    repository = "ictsc-problems"
+    permission = "push"
+}
+
 resource "github_team_repository" "ictsc6-ictsc-infra" {
     team_id = "${github_team.ictsc6.id}"
     repository = "ictsc-infra"
