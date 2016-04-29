@@ -163,3 +163,13 @@ resource "github_team_membership" "ictsc6-palloc" {
   username = "${github_membership.palloc.username}"
   role = "member"
 }
+resource "github_team_membership" "ictsc6-yo-taro" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.yo-taro.username}"
+  role = "member"
+}
+resource "github_team_membership" "ictsc6-asdfec" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.asdfec.username}"
+  role = "member"
+}
