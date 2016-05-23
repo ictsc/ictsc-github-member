@@ -168,8 +168,8 @@ resource "github_membership" "h-otter" {
     role = "member"
 }
 
-resource "github_membership" "suzue" {
-    username = "Suzue"
+resource "github_membership" "suzuek" {
+    username = "SuzueK"
     role = "member"
 }
 
