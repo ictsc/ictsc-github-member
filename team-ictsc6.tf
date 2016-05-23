@@ -92,9 +92,9 @@ resource "github_team_membership" "ictsc6-h-otter" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc6-suzue" {
+resource "github_team_membership" "ictsc6-suzuek" {
   team_id = "${github_team.ictsc6.id}"
-  username = "${github_membership.suzue.username}"
+  username = "${github_membership.suzuek.username}"
   role = "member"
 }
 
