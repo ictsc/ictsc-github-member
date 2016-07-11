@@ -173,3 +173,8 @@ resource "github_team_membership" "ictsc6-asdfec" {
   username = "${github_membership.asdfec.username}"
   role = "member"
 }
+resource "github_team_membership" "ictsc6-notchi590" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.notchi590.username}"
+  role = "member"
+}
