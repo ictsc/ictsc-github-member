@@ -202,3 +202,14 @@ resource "github_membership" "takeshi-seki" {
     username = "takeshi-seki"
     role = "member"
 }
+
+resource "github_membership" "masakage" {
+    username = "masakage"
+    role = "member"
+}
+
+resource "github_membership" "kamijin-fanta" {
+    username = "kamijin-fanta"
+    role = "member"
+}
+
