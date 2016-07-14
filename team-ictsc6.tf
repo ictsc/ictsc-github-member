@@ -133,56 +133,67 @@ resource "github_team_membership" "ictsc6-chalkygames123" {
   username = "${github_membership.chalkygames123.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-suzutan" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.suzutan.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-guragusan" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.guragusan.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-miyao11" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.miyao11.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-aoi96" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.aoi96.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-kyoko0514" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.kyoko0514.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-palloc" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.palloc.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-yo-taro" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.yo-taro.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-asdfec" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.asdfec.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-notchi590" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.notchi590.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-masakage" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.masakage.username}"
   role = "member"
 }
+
 resource "github_team_membership" "ictsc6-kamijin-fanta" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.kamijin-fanta.username}"
