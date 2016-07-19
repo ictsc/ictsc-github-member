@@ -200,9 +200,9 @@ resource "github_team_membership" "ictsc6-kamijin-fanta" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc6-m-sasaki" {
+resource "github_team_membership" "ictsc6-asarijiru" {
   team_id = "${github_team.ictsc6.id}"
-  username = "${github_membership.m-sasaki.username}"
+  username = "${github_membership.asarijiru.username}"
   role = "member"
 }
 
