@@ -213,8 +213,8 @@ resource "github_membership" "kamijin-fanta" {
     role = "member"
 }
 
-resource "github_membership" "m-sasaki" {
-    username = "m-sasaki"
+resource "github_membership" "asarijiru" {
+    username = "asarijiru"
     role = "member"
 }
 
