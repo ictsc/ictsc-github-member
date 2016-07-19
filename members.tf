@@ -213,3 +213,12 @@ resource "github_membership" "kamijin-fanta" {
     role = "member"
 }
 
+resource "github_membership" "m-sasaki" {
+    username = "m-sasaki"
+    role = "member"
+}
+
+resource "github_membership" "tar-xzvff" {
+    username = "tar-xzvff"
+    role = "member"
+}
