@@ -200,3 +200,15 @@ resource "github_team_membership" "ictsc6-kamijin-fanta" {
   role = "member"
 }
 
+resource "github_team_membership" "ictsc6-m-sasaki" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.m-sasaki.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc6-tar-xzvff" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.tar-xzvff.username}"
+  role = "member"
+}
+
