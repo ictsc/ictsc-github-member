@@ -222,8 +222,3 @@ resource "github_membership" "tar-xzvff" {
     username = "tar-xzvff"
     role = "member"
 }
-
-resource "github_membership" "whywaita" {
-    username = "whywaita"
-    role = "member"
-}
