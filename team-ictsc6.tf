@@ -60,6 +60,12 @@ resource "github_team_repository" "ictsc6-network-config" {
     permission = "push"
 }
 
+resource "github_team_repository" "ictsc6-kakisute-script" {
+    team_id = "${github_team.ictsc6.id}"
+    repository = "kakisute-script"
+    permission = "push"
+}
+
 // Team Members
 
 resource "github_team_membership" "ictsc6-ibucho" {
