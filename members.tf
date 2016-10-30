@@ -222,3 +222,73 @@ resource "github_membership" "tar-xzvff" {
     username = "tar-xzvff"
     role = "member"
 }
+
+resource "github_membership" "oomorio" {
+    username = "oomorio"
+    role = "member"
+}
+
+resource "github_membership" "naoki912" {
+    username = "naoki912"
+    role = "member"
+}
+
+resource "github_membership" "yaminoma" {
+    username = "yaminoma"
+    role = "member"
+}
+
+resource "github_membership" "bosan120" {
+    username = "bosan120"
+    role = "member"
+}
+
+resource "github_membership" "if001" {
+    username = "if001"
+    role = "member"
+}
+
+resource "github_membership" "matsurika1226" {
+    username = "matsurika1226"
+    role = "member"
+}
+
+resource "github_membership" "inuyosi" {
+    username = "inuyosi"
+    role = "member"
+}
+
+resource "github_membership" "masahogehoge" {
+    username = "masahogehoge"
+    role = "member"
+}
+
+resource "github_membership" "Kurorororo" {
+    username = "Kurorororo"
+    role = "member"
+}
+
+resource "github_membership" "alisamon" {
+    username = "alisamon"
+    role = "member"
+}
+
+resource "github_membership" "yatuhashi" {
+    username = "yatuhashi"
+    role = "member"
+}
+
+resource "github_membership" "alias-aria" {
+    username = "alias-aria"
+    role = "member"
+}
+
+resource "github_membership" "Katsuya414" {
+    username = "Katsuya414"
+    role = "member"
+}
+
+resource "github_membership" "ecodrive-18" {
+    username = "ecodrive-18"
+    role = "member"
+}
