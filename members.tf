@@ -273,11 +273,6 @@ resource "github_membership" "alisamon" {
     role = "member"
 }
 
-resource "github_membership" "yatuhashi" {
-    username = "yatuhashi"
-    role = "member"
-}
-
 resource "github_membership" "alias-aria" {
     username = "alias-aria"
     role = "member"
