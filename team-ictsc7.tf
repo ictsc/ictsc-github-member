@@ -193,3 +193,9 @@ resource "github_team_membership" "ictsc7-ecodrive-18" {
   username = "${github_membership.ecodrive-18.username}"
   role = "member"
 }
+
+resource "github_team_membership" "ictsc7-mbook-x86" {
+  team_id = "${github_team.ictsc7.id}"
+  username = "${github_membership.mbook-x86.username}"
+  role = "member"
+}
