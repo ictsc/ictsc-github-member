@@ -141,12 +141,6 @@ resource "github_team_membership" "ictsc6-notchi590" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc6-masakage" {
-  team_id = "${github_team.ictsc6.id}"
-  username = "${github_membership.masakage.username}"
-  role = "member"
-}
-
 resource "github_team_membership" "ictsc6-kamijin-fanta" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.kamijin-fanta.username}"
