@@ -54,6 +54,18 @@ resource "github_team_repository" "admin-ictsc-score" {
     permission = "admin"
 }
 
+resource "github_team_repository" "admin-kakisute-script" {
+    team_id = "${github_team.admin.id}"
+    repository = "kakisute-script"
+    permission = "admin"
+}
+
+resource "github_team_repository" "admin-network-config" {
+    team_id = "${github_team.admin.id}"
+    repository = "network-config"
+    permission = "admin"
+}
+
 // Team Members
 
 resource "github_team_membership" "admin-kyontan" {
