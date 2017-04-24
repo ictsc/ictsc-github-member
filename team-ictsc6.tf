@@ -159,3 +159,8 @@ resource "github_team_membership" "ictsc6-tar-xzvff" {
   role = "member"
 }
 
+resource "github_team_membership" "ictsc6-whywaita" {
+  team_id = "${github_team.ictsc6.id}"
+  username = "${github_membership.whywaita.username}"
+  role = "member"
+}
