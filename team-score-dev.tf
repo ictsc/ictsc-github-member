@@ -6,27 +6,15 @@ resource "github_team" "score-dev" {
 }
 
 // Team repository resource
-resource "github_team_repository" "score-dev-ictsc-score" {
+resource "github_team_repository" "score-dev-ictsc-score-server" {
     team_id = "${github_team.score-dev.id}"
-    repository = "ictsc-score"
-    permission = "admin"
-}
-
-resource "github_team_repository" "score-dev-ictsc-score-ember" {
-    team_id = "${github_team.score-dev.id}"
-    repository = "ictsc-score-ember"
+    repository = "ictsc-score-server"
     permission = "admin"
 }
 
 // Team Members
-resource "github_team_membership" "score-dev-chibiegg" {
+resource "github_team_membership" "score-dev-kyontan" {
   team_id = "${github_team.score-dev.id}"
-  username = "${github_membership.chibiegg.username}"
-  role = "maintainer"
-}
-
-resource "github_team_membership" "score-dev-palloc" {
-  team_id = "${github_team.score-dev.id}"
-  username = "${github_membership.palloc.username}"
+  username = "${github_membership.kyontan.username}"
   role = "maintainer"
 }

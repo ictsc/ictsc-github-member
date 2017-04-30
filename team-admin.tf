@@ -48,9 +48,9 @@ resource "github_team_repository" "admin-ictsc-playbooks" {
     permission = "admin"
 }
 
-resource "github_team_repository" "admin-ictsc-score" {
+resource "github_team_repository" "admin-ictsc-score-server" {
     team_id = "${github_team.admin.id}"
-    repository = "ictsc-score"
+    repository = "ictsc-score-server"
     permission = "admin"
 }
 
