@@ -48,9 +48,9 @@ resource "github_team_repository" "ictsc8-ictsc-playbooks" {
     permission = "pull"
 }
 
-resource "github_team_repository" "ictsc8-ictsc-score" {
+resource "github_team_repository" "ictsc8-ictsc-score-server" {
     team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-score"
+    repository = "ictsc-score-server"
     permission = "pull"
 }
 

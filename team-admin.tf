@@ -48,9 +48,9 @@ resource "github_team_repository" "admin-ictsc-playbooks" {
     permission = "admin"
 }
 
-resource "github_team_repository" "admin-ictsc-score" {
+resource "github_team_repository" "admin-ictsc-score-server" {
     team_id = "${github_team.admin.id}"
-    repository = "ictsc-score"
+    repository = "ictsc-score-server"
     permission = "admin"
 }
 
@@ -71,11 +71,5 @@ resource "github_team_repository" "admin-network-config" {
 resource "github_team_membership" "admin-kyontan" {
   team_id = "${github_team.admin.id}"
   username = "${github_membership.kyontan.username}"
-  role = "member"
-}
-
-resource "github_team_membership" "admin-suzutan" {
-  team_id = "${github_team.admin.id}"
-  username = "${github_membership.suzutan.username}"
   role = "member"
 }
