@@ -7,6 +7,12 @@ resource "github_team" "ictsc6" {
 
 // Team Repository Resource
 
+resource "github_team_repository" "ictsc6-network-config" {
+    team_id = "${github_team.ictsc6.id}"
+    repository = "network-config"
+    permission = "push"
+}
+
 // Team Members
 
 resource "github_team_membership" "ictsc6-ibucho" {
