@@ -45,7 +45,7 @@ resource "github_team_repository" "ictsc8-ictsc-server" {
 resource "github_team_repository" "ictsc8-ictsc-playbooks" {
     team_id = "${github_team.ictsc8.id}"
     repository = "ictsc-playbooks"
-    permission = "pull"
+    permission = "push"
 }
 
 resource "github_team_repository" "ictsc8-ictsc-score-server" {
