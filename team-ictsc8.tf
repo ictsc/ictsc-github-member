@@ -57,7 +57,7 @@ resource "github_team_repository" "ictsc8-ictsc-score-server" {
 resource "github_team_repository" "ictsc8-network-config" {
     team_id = "${github_team.ictsc8.id}"
     repository = "network-config"
-    permission = "push"
+    permission = "admin"
 }
 
 resource "github_team_repository" "ictsc8-kakisute-script" {
