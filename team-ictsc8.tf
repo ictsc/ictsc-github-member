@@ -6,65 +6,6 @@ resource "github_team" "ictsc8" {
 }
 
 // Team Repository Resource
-resource "github_team_repository" "ictsc8-ictsc-sandbox" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-sandbox"
-    permission = "admin"
-}
-
-resource "github_team_repository" "ictsc8-ictsc-general" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-general"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc8-ictsc-problems" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-problems"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc8-ictsc-infra" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-infra"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc8-ictsc-network" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-network"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc8-ictsc-server" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-server"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc8-ictsc-playbooks" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-playbooks"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc8-ictsc-score-server" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "ictsc-score-server"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc8-network-config" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "network-config"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc8-kakisute-script" {
-    team_id = "${github_team.ictsc8.id}"
-    repository = "kakisute-script"
-    permission = "push"
-}
 
 // Team Members
 
