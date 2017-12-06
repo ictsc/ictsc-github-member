@@ -292,3 +292,43 @@ resource "github_membership" "keyakko" {
     username = "keyakko"
     role = "member"
 }
+
+resource "github_membership" "gurapomu" {
+    username = "gurapomu"
+    role = "member"
+}
+
+resource "github_membership" "SakurazakaShin" {
+    username = "SakurazakaShin"
+    role = "member"
+}
+
+resource "github_membership" "acque2two" {
+    username = "acque2two"
+    role = "member"
+}
+
+resource "github_membership" "takumimoja" {
+    username = "takumimoja"
+    role = "member"
+}
+
+resource "github_membership" "ha-kun0711" {
+    username = "ha-kun0711"
+    role = "member"
+}
+
+resource "github_membership" "uplus" {
+    username = "uplus"
+    role = "member"
+}
+
+resource "github_membership" "sharknasuhorse" {
+    username = "sharknasuhorse"
+    role = "member"
+}
+
+resource "github_membership" "tsuttsu305" {
+    username = "tsuttsu305"
+    role = "member"
+}
