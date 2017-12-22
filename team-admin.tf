@@ -68,8 +68,3 @@ resource "github_team_repository" "admin-network-config" {
 
 // Team Members
 
-resource "github_team_membership" "admin-kyontan" {
-  team_id = "${github_team.admin.id}"
-  username = "${github_membership.kyontan.username}"
-  role = "member"
-}
