@@ -178,6 +178,12 @@ resource "github_team_membership" "ictsc9-sharknasuhorse" {
 
 resource "github_team_membership" "ictsc9-tsuttsu305" {
   team_id = "${github_team.ictsc9.id}"
-  username = "${github_membership.takumimoja.username}"
+  username = "${github_membership.tsuttsu305.username}"
+  role = "member"
+}
+
+resource "github_team_membership" "ictsc9-nomeaning777" {
+  team_id = "${github_team.ictsc9.id}"
+  username = "${github_membership.nomeaning777.username}"
   role = "member"
 }
