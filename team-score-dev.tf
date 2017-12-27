@@ -16,5 +16,5 @@ resource "github_team_repository" "score-dev-ictsc-score-server" {
 resource "github_team_membership" "score-dev-uplus" {
   team_id = "${github_team.score-dev.id}"
   username = "${github_membership.uplus.username}"
-  role = "admin"
+  role = "maintainer"
 }
