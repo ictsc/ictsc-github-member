@@ -253,11 +253,6 @@ resource "github_membership" "inuyosi" {
     role = "member"
 }
 
-resource "github_membership" "masahogehoge" {
-    username = "masahogehoge"
-    role = "member"
-}
-
 resource "github_membership" "Kurorororo" {
     username = "Kurorororo"
     role = "member"
