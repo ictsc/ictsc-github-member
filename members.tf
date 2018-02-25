@@ -333,3 +333,8 @@ resource "github_membership" "nomeaning777" {
     username = "nomeaning777"
     role = "member"
 }
+
+resource "github_membership" "shinonome01" {
+    username = "shinonome01"
+    role = "member"
+}
