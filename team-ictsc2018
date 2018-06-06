@@ -189,3 +189,9 @@ resource "github_team_membership" "ictsc2018-potyama" {
   role = "member"
 }
 
+resource "github_team_membership" "ictsc2018-NozomiSugiyama" {
+  team_id = "${github_team.ictsc2018.id}"
+  username = "${github_membership.NozomiSugiyama.username}"
+  role = "member"
+}
+
