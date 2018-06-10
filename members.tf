@@ -353,19 +353,28 @@ resource "github_membership" "takehaya" {
     username = "takehaya"
     role = "member"
 }
+
 resource "github_membership" "proelbtn" {
     username = "proelbtn"
     role = "member"
 }
+
 resource "github_membership" "orin24" {
     username = "orin24"
     role = "member"
 }
+
 resource "github_membership" "ShotaKitazawa" {
     username = "ShotaKitazawa"
     role = "member"
 }
+
 resource "github_membership" "potyama" {
     username = "potyama"
+    role = "member"
+}
+
+resource "github_membership" "NozomiSugiyama" {
+    username = "NozomiSugiyama"
     role = "member"
 }
