@@ -16,12 +16,17 @@ resource "github_membership" "ibucho" {
   role = "admin"
 }
 
-resource "github_membership" "notchi590" {
-    username = "notchi590"
+resource "github_membership" "whywaita" {
+    username = "whywaita"
     role = "admin"
 }
 
 // Members
+
+resource "github_membership" "notchi590" {
+    username = "notchi590"
+    role = "member"
+}
 
 resource "github_membership" "aoi96" {
     username = "aoi96"
@@ -125,11 +130,6 @@ resource "github_membership" "suzutan" {
 
 resource "github_membership" "takes3" {
     username = "takes3"
-    role = "member"
-}
-
-resource "github_membership" "whywaita" {
-    username = "whywaita"
     role = "member"
 }
 
