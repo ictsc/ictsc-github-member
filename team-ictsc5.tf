@@ -38,9 +38,9 @@ resource "github_team_membership" "ictsc5-guragusan" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc5-hyr3k" {
+resource "github_team_membership" "ictsc5-kadokusei" {
   team_id = "${github_team.ictsc5.id}"
-  username = "${github_membership.hyr3k.username}"
+  username = "${github_membership.kadokusei.username}"
   role = "member"
 }
 

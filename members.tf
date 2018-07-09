@@ -16,12 +16,17 @@ resource "github_membership" "ibucho" {
   role = "admin"
 }
 
-resource "github_membership" "notchi590" {
-    username = "notchi590"
+resource "github_membership" "whywaita" {
+    username = "whywaita"
     role = "admin"
 }
 
 // Members
+
+resource "github_membership" "notchi590" {
+    username = "notchi590"
+    role = "member"
+}
 
 resource "github_membership" "aoi96" {
     username = "aoi96"
@@ -128,11 +133,6 @@ resource "github_membership" "takes3" {
     role = "member"
 }
 
-resource "github_membership" "whywaita" {
-    username = "whywaita"
-    role = "member"
-}
-
 resource "github_membership" "y-monma" {
     username = "y-monma"
     role = "member"
@@ -153,8 +153,8 @@ resource "github_membership" "yo-taro" {
     role = "member"
 }
 
-resource "github_membership" "hyr3k" {
-    username = "hyr3k"
+resource "github_membership" "kadokusei" {
+    username = "kadokusei"
     role = "member"
 }
 
@@ -376,5 +376,10 @@ resource "github_membership" "potyama" {
 
 resource "github_membership" "NozomiSugiyama" {
     username = "NozomiSugiyama"
+    role = "member"
+}
+
+resource "github_membership" "onokatio" {
+    username = "onokatio"
     role = "member"
 }
