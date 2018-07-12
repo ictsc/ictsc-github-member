@@ -73,3 +73,9 @@ resource "github_team_membership" "admin-whywaita" {
   username = "${github_membership.whywaita.username}"
   role = "member"
 }
+
+resource "github_team_membership" "admin-tar-xzvff" {
+  team_id  = "${github_team.admin.id}"
+  username = "${github_membership.tar-xzvff.username}"
+  role     = "member"
+}
