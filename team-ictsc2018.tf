@@ -65,6 +65,11 @@ resource "github_team_repository" "ictsc2018-kakisute-script" {
     repository = "kakisute-script"
     permission = "push"
 }
+resource "github_team_repository" "ictsc2018-prep-problems" {
+    team_id = "${github_team.ictsc2018.id}"
+    repository = "prep-problems"
+    permission = "push"
+}
 
 // Team Members
 

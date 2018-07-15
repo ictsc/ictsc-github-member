@@ -20,6 +20,11 @@ resource "github_membership" "whywaita" {
     username = "whywaita"
     role = "admin"
 }
+resource "github_membership" "tar-xzvff" {
+    username = "tar-xzvff"
+    role = "admin"
+}
+
 
 // Members
 
@@ -210,11 +215,6 @@ resource "github_membership" "kamijin-fanta" {
 
 resource "github_membership" "asarijiru" {
     username = "asarijiru"
-    role = "member"
-}
-
-resource "github_membership" "tar-xzvff" {
-    username = "tar-xzvff"
     role = "member"
 }
 
