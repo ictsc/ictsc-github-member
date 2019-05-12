@@ -1,0 +1,40 @@
+version: 2
+jobs:
+  master:
+    working_directory: ~ictsc-github-member
+    docker:
+      - image: hashicorp/terraform:light
+    steps:
+      - checkout
+      - run:
+          commands: terraform plan
+
+  production:
+    working_directory: ~ictsc-github-member
+    docker:
+      - image: hashicorp/terraform:light
+    steps:
+      - checkout
+      - run:
+          commands: terraform apply
+      - run:
+          commands: git config --global user.email "account@icttoracon.net"
+      - run:
+          commands: git config --global user.name "ictsc-admin"              
+      - run:
+          commands: git add -f terraform.tfstate
+      - run:
+          commands: git commit -m "update terraform state [ci skip]"
+      - run:
+          commands: git push origin production
+
+workflows:
+  version: 2
+  plan-and-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
+                - production
