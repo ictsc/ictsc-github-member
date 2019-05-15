@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run:
-          commands: terraform plan
+          command: terraform plan
 
   deploy:
     working_directory: ~ictsc-github-member
@@ -16,17 +16,17 @@ jobs:
     steps:
       - checkout
       - run:
-          commands: terraform apply -auto-approve
+          command: terraform apply -auto-approve
       - run:
-          commands: git config --global user.email "account@icttoracon.net"
+          command: git config --global user.email "account@icttoracon.net"
       - run:
-          commands: git config --global user.name "ictsc-admin"              
+          command: git config --global user.name "ictsc-admin"              
       - run:
-          commands: git add -f terraform.tfstate
+          command: git add -f terraform.tfstate
       - run:
-          commands: git commit -m "update terraform state [ci skip]"
+          command: git commit -m "update terraform state [ci skip]"
       - run:
-          commands: git push origin production
+          command: git push origin production
 
 workflows:
   version: 2
