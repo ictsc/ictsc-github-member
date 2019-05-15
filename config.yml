@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  master:
+  test:
     working_directory: ~ictsc-github-member
     docker:
       - image: hashicorp/terraform:0.11.3
@@ -9,7 +9,7 @@ jobs:
       - run:
           commands: terraform plan
 
-  production:
+  deploy:
     working_directory: ~ictsc-github-member
     docker:
       - image: hashicorp/terraform:light
@@ -30,11 +30,15 @@ jobs:
 
 workflows:
   version: 2
-  plan-and-deploy:
+  test-and-deploy:
     jobs:
-      - build:
+      - test:
           filters:
             branches:
               only:
                 - master
+      - deploy:
+          filters:
+            branches:
+              only:                
                 - production
