@@ -16,7 +16,7 @@ jobs:
     steps:
       - checkout
       - run:
-          commands: terraform apply
+          commands: terraform apply -auto-approve
       - run:
           commands: git config --global user.email "account@icttoracon.net"
       - run:
