@@ -6,7 +6,7 @@ jobs:
       - image: hashicorp/terraform:0.11.3
     steps:
       - checkout
-      - init:
+      - run:
           command: terraform init
       - run:
           command: terraform plan
@@ -17,7 +17,7 @@ jobs:
       - image: hashicorp/terraform:light
     steps:
       - checkout
-      - init:
+      - run:
           command: terraform init
       - run:
           command: terraform apply -auto-approve
