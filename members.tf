@@ -383,3 +383,62 @@ resource "github_membership" "onokatio" {
     username = "onokatio"
     role = "member"
 }
+
+resource "github_membership" "rlia" {
+    username = "rlia"
+    role = "member"
+}
+
+resource "github_membership" "Terfno" {
+    username = "Terfno"
+    role = "member"
+}
+resource "github_membership" "kapibara824" {
+    username = "kapibara824"
+    role = "member"
+}
+
+resource "github_membership" "yo-kanyukari" {
+    username = "yo-kanyukari"
+    role = "member"
+}
+
+resource "github_membership" "yoneyan" {
+    username = "yoneyan"
+    role = "member"
+}
+
+resource "github_membership" "ophum" {
+    username = "ophum"
+    role = "member"
+}
+
+resource "github_membership" "TenkiGit" {
+    username = "TenkiGit"
+    role = "member"
+}
+
+resource "github_membership" "tt222" {
+    username = "tt222"
+    role = "member"
+}
+
+resource "github_membership" "site0801" {
+    username = "site0801"
+    role = "member"
+}
+
+resource "github_membership" "arupakan125" {
+    username = "arupakan125"
+    role = "member"
+}
+
+resource "github_membership" "chouett0" {
+    username = "chouett0"
+    role = "member"
+}
+
+resource "github_membership" "Iwancof" {
+    username = "Iwancof"
+    role = "member"
+}
