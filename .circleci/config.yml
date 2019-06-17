@@ -14,7 +14,7 @@ jobs:
   deploy:
     working_directory: ~ictsc-github-member
     docker:
-      - image: hashicorp/terraform:light
+      - image: hashicorp/terraform:0.11.3
     steps:
       - checkout
       - run:
