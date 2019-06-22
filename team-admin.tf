@@ -12,33 +12,15 @@ resource "github_team_repository" "admin-ictsc-sandbox" {
     permission = "admin"
 }
 
-resource "github_team_repository" "admin-ictsc-general" {
-    team_id = "${github_team.admin.id}"
-    repository = "ictsc-general"
-    permission = "admin"
-}
-
 resource "github_team_repository" "admin-ictsc-problems" {
     team_id = "${github_team.admin.id}"
     repository = "ictsc-problems"
     permission = "admin"
 }
 
-resource "github_team_repository" "admin-ictsc-infra" {
-    team_id = "${github_team.admin.id}"
-    repository = "ictsc-infra"
-    permission = "admin"
-}
-
 resource "github_team_repository" "admin-ictsc-network" {
     team_id = "${github_team.admin.id}"
     repository = "ictsc-network"
-    permission = "admin"
-}
-
-resource "github_team_repository" "admin-ictsc-server" {
-    team_id = "${github_team.admin.id}"
-    repository = "ictsc-server"
     permission = "admin"
 }
 
