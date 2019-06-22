@@ -18,12 +18,6 @@ resource "github_team_repository" "ictsc2019-ictsc-problems" {
     permission = "push"
 }
 
-resource "github_team_repository" "ictsc2019-ictsc-infra" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "ictsc-infra"
-    permission = "push"
-}
-
 resource "github_team_repository" "ictsc2019-ictsc-network" {
     team_id = "${github_team.ictsc2019.id}"
     repository = "ictsc-network"
@@ -60,7 +54,6 @@ resource "github_team_repository" "ictsc2019-prep-problems" {
 }
 
 // Team Members
-
 resource "github_team_membership" "ictsc2019-h-otter" {
   team_id = "${github_team.ictsc2019.id}"
   username = "${github_membership.h-otter.username}"
