@@ -25,6 +25,10 @@ resource "github_membership" "tar-xzvff" {
     role = "admin"
 }
 
+resource "github_membership" "h-otter" {
+    username = "h-otter"
+    role = "admin"
+}
 
 // Members
 
@@ -165,11 +169,6 @@ resource "github_membership" "kadokusei" {
 
 resource "github_membership" "knium" {
     username = "Knium"
-    role = "member"
-}
-
-resource "github_membership" "h-otter" {
-    username = "h-otter"
     role = "member"
 }
 
