@@ -6,7 +6,7 @@
 #   bash rewrite_authorized_keys.sh [Github Team] [Output File]
 # 
 # Example:
-#   bash rewrite_authorized_keys.sh ictsc2019 ~/.ssh/authorized_keys
+#   curl -sS https://raw.githubusercontent.com/h-otter/ictsc-github-member/master/rewrite_authorized_keys.sh | bash -s -- ictsc2019 ~/.ssh/authorized_keys
 
 team=$1
 output=$2
@@ -22,7 +22,7 @@ then
   exit 1
 fi
 
-echo "# imported by github.com/ictsc/ictsc-github-member" > $output
+echo "# These keys are imported members of Github Team $team defined by github.com/ictsc/ictsc-github-member" > $output
 for m in $members
 do
   curl -sS https://github.com/$m.keys | grep -v "Not Found" | xargs -n1 -I{} echo {} $m@gh | tee --append $output
