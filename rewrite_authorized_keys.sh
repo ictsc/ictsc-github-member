@@ -6,7 +6,7 @@
 #   bash rewrite_authorized_keys.sh [Github Team] [Output File]
 # 
 # Example:
-#   curl -sS https://raw.githubusercontent.com/h-otter/ictsc-github-member/master/rewrite_authorized_keys.sh | bash -s -- ictsc2019 ~/.ssh/authorized_keys
+#   curl -sS https://raw.githubusercontent.com/ictsc/ictsc-github-member/master/rewrite_authorized_keys.sh | bash -s -- ictsc2019 ~/.ssh/authorized_keys
 
 team=$1
 output=$2
