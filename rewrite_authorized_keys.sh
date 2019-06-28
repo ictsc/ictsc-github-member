@@ -18,11 +18,11 @@ fi
 members=`curl -sS https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate | grep github_team_membership.$team | sed -e 's/^.*ictsc[0-9]*-\(.*\)\".*$/\1/'`
 if [ -z "$members" ]
 then
-  echo "members are not found, maybe $team do not exists"
+  echo "members are not found, maybe $team does not exists"
   exit 1
 fi
 
-echo "# These keys are imported members of Github Team $team defined by github.com/ictsc/ictsc-github-member" > $output
+echo "# These public keys are imported from GitHub team $team at github.com/ictsc/ictsc-github-member" > $output
 for m in $members
 do
   curl -sS https://github.com/$m.keys | xargs -n1 -I{} echo {} $m@gh | tee --append $output
