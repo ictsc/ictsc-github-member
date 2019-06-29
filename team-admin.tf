@@ -62,7 +62,7 @@ resource "github_team_membership" "admin-tar-xzvff" {
   role     = "member"
 }
 
-resource "github_team_membership" "admin-tar-xzvff" {
+resource "github_team_membership" "admin-h-otter" {
   team_id  = "${github_team.admin.id}"
   username = "${github_membership.h-otter.username}"
   role     = "member"
