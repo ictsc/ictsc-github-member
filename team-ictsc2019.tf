@@ -53,6 +53,18 @@ resource "github_team_repository" "ictsc2019-prep-problems" {
     permission = "push"
 }
 
+resource "github_team_repository" "ictsc2019-prep-pstate" {
+    team_id = "${github_team.ictsc2019.id}"
+    repository = "prep-pstate"
+    permission = "push"
+}
+
+resource "github_team_repository" "ictsc2019-prep-relate" {
+    team_id = "${github_team.ictsc2019.id}"
+    repository = "prep-relate"
+    permission = "push"
+}
+
 // Team Members
 resource "github_team_membership" "ictsc2019-h-otter" {
   team_id = "${github_team.ictsc2019.id}"
