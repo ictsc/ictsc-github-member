@@ -203,3 +203,9 @@ resource "github_team_membership" "ictsc2019-Iwancof" {
   username = "${github_membership.Iwancof.username}"
   role = "member"
 }
+
+resource "github_team_membership" "ictsc2019-hibiki31" {
+  team_id = "${github_team.ictsc2019.id}"
+  username = "${github_membership.hibiki31.username}"
+  role = "member"
+}
