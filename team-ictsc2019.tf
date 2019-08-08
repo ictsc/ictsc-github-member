@@ -209,9 +209,3 @@ resource "github_team_membership" "ictsc2019-hibiki31" {
   username = "${github_membership.hibiki31.username}"
   role = "member"
 }
-
-resource "github_team_membership" "ictsc2019-beggarl" {
-  team_id = "${github_team.ictsc2019.id}"
-  username = "${github_membership.beggarl.username}"
-  role = "member"
-}
