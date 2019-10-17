@@ -51,12 +51,6 @@ resource "github_team_membership" "ictsc6-suzuek" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc6-yabunon" {
-  team_id = "${github_team.ictsc6.id}"
-  username = "${github_membership.yabunon.username}"
-  role = "member"
-}
-
 resource "github_team_membership" "ictsc6-int-tt" {
   team_id = "${github_team.ictsc6.id}"
   username = "${github_membership.int-tt.username}"
