@@ -215,3 +215,52 @@ resource "github_team_membership" "ictsc2019-beggarl" {
   username = "${github_membership.beggarl.username}"
   role = "member"
 }
+
+// ICTSC2019 実行委員
+resource "github_team_membership" "ictsc2019-naoki912" {
+  team_id  = "${github_team.ictsc2019.id}"
+  username = "${github_membership.naoki912.username}"
+  role     = "member"
+}
+
+resource "github_team_membership" "ictsc2019-mbook-x86" {
+  team_id  = "${github_team.ictsc2019.id}"
+  username = "${github_membership.mbook-x86.username}"
+  role     = "member"
+}
+
+resource "github_team_membership" "ictsc2019-ecodrive-18" {
+  team_id  = "${github_team.ictsc2019.id}"
+  username = "${github_membership.ecodrive-18.username}"
+  role     = "member"
+}
+
+resource "github_team_membership" "ictsc2019-recuraki" {
+  team_id  = "${github_team.ictsc2019.id}"
+  username = "${github_membership.recuraki.username}"
+  role     = "member"
+}
+
+resource "github_team_membership" "ictsc2019-syuli" {
+  team_id  = "${github_team.ictsc2019.id}"
+  username = "${github_membership.syuli.username}"
+  role     = "member"
+}
+
+resource "github_team_membership" "ictsc2019-SallyAcolyte" {
+  team_id  = "${github_team.ictsc2019.id}"
+  username = "${github_membership.SallyAcolyte.username}"
+  role     = "member"
+}
+
+resource "github_team_membership" "ictsc2019-yu-tanaka00" {
+  team_id  = "${github_team.ictsc2019.id}"
+  username = "${github_membership.yu-tanaka00.username}"
+  role     = "member"
+}
+
+resource "github_team_membership" "ictsc2019-koara7" {
+  team_id  = "${github_team.ictsc2019.id}"
+  username = "${github_membership.koara7.username}"
+  role     = "member"
+}
