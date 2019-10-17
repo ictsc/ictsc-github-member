@@ -451,3 +451,30 @@ resource "github_membership" "beggarl" {
     username = "beggarl"
     role = "member"
 }
+
+// ICTSC2019 実行委員
+resource "github_membership" "recuraki" {
+  username = "recuraki"
+  role     = "member"
+}
+
+resource "github_membership" "SallyAcolyte" {
+  username = "SallyAcolyte"
+  role     = "member"
+}
+
+resource "github_membership" "syuli" {
+  username = "syuli"
+  role     = "member"
+}
+
+resource "github_membership" "yu-tanaka00" {
+  username = "yu-tanaka00"
+  role     = "member"
+}
+
+resource "github_membership" "koara7" {
+  username = "koara7"
+  role     = "member"
+}
+
