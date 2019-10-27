@@ -473,3 +473,8 @@ resource "github_membership" "koara7" {
   role     = "member"
 }
 
+resource "github_membership" "tom--bo" {
+  username = "tom--bo"
+  role     = "member"
+}
+
