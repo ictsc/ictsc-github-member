@@ -67,3 +67,9 @@ resource "github_team_membership" "admin-h-otter" {
   username = "${github_membership.h-otter.username}"
   role     = "member"
 }
+
+resource "github_team_membership" "admin-sharknasuhorse" {
+  team_id  = "${github_team.admin.id}"
+  username = "${github_membership.sharknasuhorse.username}"
+  role     = "member"
+}

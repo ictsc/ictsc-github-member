@@ -30,6 +30,11 @@ resource "github_membership" "h-otter" {
     role = "admin"
 }
 
+resource "github_membership" "sharknasuhorse" {
+    username = "sharknasuhorse"
+    role = "admin"
+}
+
 // Members
 
 resource "github_membership" "notchi590" {
@@ -310,11 +315,6 @@ resource "github_membership" "ha-kun0711" {
 
 resource "github_membership" "uplus" {
     username = "uplus"
-    role = "member"
-}
-
-resource "github_membership" "sharknasuhorse" {
-    username = "sharknasuhorse"
     role = "member"
 }
 
