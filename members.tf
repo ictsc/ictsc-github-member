@@ -482,3 +482,41 @@ resource "github_membership" "SilEighty-ym" {
   username = "SilEighty-ym"
   role     = "member"
 }
+
+// ICTSC2020 新規運営委員
+
+// nakayama
+resource "github_membership" "nakasyo2650" {
+  username = "nakasyo2650"
+  role     = "member"
+}
+
+// isonami
+resource "github_membership" "naoki2001" {
+  username = "naoki2001"
+  role     = "member"
+}
+
+// shinya
+resource "github_membership" "928k1110" {
+  username = "928k1110"
+  role     = "member"
+}
+
+// hikida
+resource "github_membership" "Hicky1025" {
+  username = "Hicky1025"
+  role     = "member"
+}
+
+// takemaru
+resource "github_membership" "zeroalphat" {
+  username = "zeroalphat"
+  role     = "member"
+}
+
+// nyanco
+resource "github_membership" "tanishi001" {
+  username = "tanishi001"
+  role     = "member"
+}
