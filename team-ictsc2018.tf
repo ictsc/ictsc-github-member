@@ -58,11 +58,11 @@ resource "github_team_membership" "ictsc2018-acque2two" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc2018-takumimoja" {
-  team_id = "${github_team.ictsc2018.id}"
-  username = "${github_membership.takumimoja.username}"
-  role = "member"
-}
+// resource "github_team_membership" "ictsc2018-takumimoja" {
+//   team_id = "${github_team.ictsc2018.id}"
+//   username = "${github_membership.takumimoja.username}"
+//   role = "member"
+// }
 
 resource "github_team_membership" "ictsc2018-ha-kun0711" {
   team_id = "${github_team.ictsc2018.id}"

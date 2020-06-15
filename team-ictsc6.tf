@@ -33,11 +33,11 @@ resource "github_team_membership" "ictsc6-kurochan" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc6-knium" {
-  team_id = "${github_team.ictsc6.id}"
-  username = "${github_membership.knium.username}"
-  role = "member"
-}
+// resource "github_team_membership" "ictsc6-knium" {
+//   team_id = "${github_team.ictsc6.id}"
+//   username = "${github_membership.knium.username}"
+//   role = "member"
+// }
 
 resource "github_team_membership" "ictsc6-h-otter" {
   team_id = "${github_team.ictsc6.id}"

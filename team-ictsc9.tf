@@ -93,11 +93,11 @@ resource "github_team_membership" "ictsc9-acque2two" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc9-takumimoja" {
-  team_id = "${github_team.ictsc9.id}"
-  username = "${github_membership.takumimoja.username}"
-  role = "member"
-}
+// resource "github_team_membership" "ictsc9-takumimoja" {
+//   team_id = "${github_team.ictsc9.id}"
+//   username = "${github_membership.takumimoja.username}"
+//   role = "member"
+// }
 
 resource "github_team_membership" "ictsc9-ha-kun0711" {
   team_id = "${github_team.ictsc9.id}"
