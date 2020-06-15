@@ -32,11 +32,11 @@ resource "github_team_membership" "ictsc2019-gurapomu" {
   role = "member"
 }
 
-resource "github_team_membership" "ictsc2019-takumimoja" {
-  team_id = "${github_team.ictsc2019.id}"
-  username = "${github_membership.takumimoja.username}"
-  role = "member"
-}
+// resource "github_team_membership" "ictsc2019-takumimoja" {
+//   team_id = "${github_team.ictsc2019.id}"
+//   username = "${github_membership.takumimoja.username}"
+//   role = "member"
+// }
 
 resource "github_team_membership" "ictsc2019-uplus" {
   team_id = "${github_team.ictsc2019.id}"
@@ -201,11 +201,11 @@ resource "github_team_membership" "ictsc2019-yu-tanaka00" {
   role     = "member"
 }
 
-resource "github_team_membership" "ictsc2019-koara7" {
-  team_id  = "${github_team.ictsc2019.id}"
-  username = "${github_membership.koara7.username}"
-  role     = "member"
-}
+// resource "github_team_membership" "ictsc2019-koara7" {
+//   team_id  = "${github_team.ictsc2019.id}"
+//   username = "${github_membership.koara7.username}"
+//   role     = "member"
+// }
 
 resource "github_team_membership" "ictsc2019-tom--bo" {
   team_id  = "${github_team.ictsc2019.id}"
