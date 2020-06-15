@@ -172,10 +172,10 @@ resource "github_membership" "kadokusei" {
     role = "member"
 }
 
-resource "github_membership" "knium" {
-    username = "Knium"
-    role = "member"
-}
+// resource "github_membership" "knium" {
+//     username = "Knium"
+//     role = "member"
+// }
 
 resource "github_membership" "suzuek" {
     username = "SuzueK"
@@ -207,10 +207,10 @@ resource "github_membership" "chalkygames123" {
     role = "member"
 }
 
-resource "github_membership" "takeshi-seki" {
-    username = "takeshi-seki"
-    role = "member"
-}
+// resource "github_membership" "takeshi-seki" {
+//     username = "takeshi-seki"
+//     role = "member"
+// }
 
 resource "github_membership" "kamijin-fanta" {
     username = "kamijin-fanta"
@@ -308,8 +308,8 @@ resource "github_membership" "acque2two" {
     role = "member"
 }
 
-resource "github_membership" "takumimoja" {
-    username = "takumimoja"
+resource "github_membership" "yukamoja" {
+    username = "yukamoja"
     role = "member"
 }
 
@@ -468,10 +468,10 @@ resource "github_membership" "yu-tanaka00" {
   role     = "member"
 }
 
-resource "github_membership" "koara7" {
-  username = "koara7"
-  role     = "member"
-}
+// resource "github_membership" "koara7" {
+//   username = "koara7"
+//   role     = "member"
+// }
 
 resource "github_membership" "tom--bo" {
   username = "tom--bo"
