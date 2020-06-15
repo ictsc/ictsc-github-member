@@ -70,9 +70,9 @@ resource "github_team_repository" "ictsc2020-prep-relate" {
 // ### Team Members ###
 
 // takumi.h
-resource "github_team_membership" "ictsc2020-takumimoja" {
+resource "github_team_membership" "ictsc2020-yukamoja" {
   team_id = "${github_team.ictsc2020.id}"
-  username = "${github_membership.takumimoja.username}"
+  username = "${github_membership.yukamoja.username}"
   role = "member"
 }
 
