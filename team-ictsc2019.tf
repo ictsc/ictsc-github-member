@@ -6,64 +6,6 @@ resource "github_team" "ictsc2019" {
 }
 
 // Team Repository Resource
-resource "github_team_repository" "ictsc2019-ictsc-sandbox" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "ictsc-sandbox"
-    permission = "admin"
-}
-
-resource "github_team_repository" "ictsc2019-ictsc-problems" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "ictsc-problems"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc2019-ictsc-network" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "ictsc-network"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc2019-ictsc-playbooks" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "ictsc-playbooks"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc2019-ictsc-score-server" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "ictsc-score-server"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc2019-network-config" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "network-config"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc2019-kakisute-script" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "kakisute-script"
-    permission = "push"
-}
-resource "github_team_repository" "ictsc2019-prep-problems" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "prep-problems"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc2019-prep-pstate" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "prep-pstate"
-    permission = "push"
-}
-
-resource "github_team_repository" "ictsc2019-prep-relate" {
-    team_id = "${github_team.ictsc2019.id}"
-    repository = "prep-relate"
-    permission = "push"
-}
 
 // Team Members
 resource "github_team_membership" "ictsc2019-h-otter" {
