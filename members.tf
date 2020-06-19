@@ -310,7 +310,7 @@ resource "github_membership" "acque2two" {
 
 resource "github_membership" "yukamoja" {
     username = "yukamoja"
-    role = "member"
+    role = "admin"
 }
 
 resource "github_membership" "ha-kun0711" {
