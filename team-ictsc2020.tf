@@ -7,11 +7,6 @@ resource "github_team" "ictsc2020" {
 
 
 // ### Team Repository Resource ###
-resource "github_team_repository" "ictsc2020-ictsc-sandbox" {
-    team_id = "${github_team.ictsc2020.id}"
-    repository = "ictsc-sandbox"
-    permission = "admin"
-}
 
 resource "github_team_repository" "ictsc2020-ictsc-problems" {
     team_id = "${github_team.ictsc2020.id}"
@@ -66,6 +61,11 @@ resource "github_team_repository" "ictsc2020-prep-relate" {
     permission = "push"
 }
 
+resource "github_team_repository" "ictsc2020-ictsc-k8s-cluster" {
+    team_id = "${github_team.ictsc2020.id}"
+    repository = "ictsc-k8s-cluster"
+    permission = "push"
+}
 
 // ### Team Members ###
 
