@@ -232,4 +232,11 @@ resource "github_team_membership" "ictsc2020-tanishi001" {
   role = "member"
 }
 
+// x86taka(Takaharu Umeda)
+resource "github_team_membership" "ictsc2020-x86taka" {
+  team_id = "${github_team.ictsc2020.id}"
+  username = "${github_membership.x86taka.username}"
+  role = "member"
+}
+
 // ### 実行委員 ###

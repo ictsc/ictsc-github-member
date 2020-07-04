@@ -520,3 +520,10 @@ resource "github_membership" "tanishi001" {
   username = "tanishi001"
   role     = "member"
 }
+
+// x86taka
+resource "github_membership" "x86taka" {
+  username = "x86taka"
+  role = "member"
+}
+
