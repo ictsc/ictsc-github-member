@@ -345,7 +345,7 @@ resource "github_membership" "freedom18" {
 
 resource "github_membership" "takehaya" {
     username = "takehaya"
-    role = "member"
+    role = "admin"
 }
 
 resource "github_membership" "proelbtn" {
