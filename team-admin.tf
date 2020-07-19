@@ -6,11 +6,6 @@ resource "github_team" "admin" {
 }
 
 // Team Repository Resource
-resource "github_team_repository" "admin-ictsc-sandbox" {
-    team_id = "${github_team.admin.id}"
-    repository = "ictsc-sandbox"
-    permission = "admin"
-}
 
 resource "github_team_repository" "admin-ictsc-problems" {
     team_id = "${github_team.admin.id}"
@@ -48,6 +43,12 @@ resource "github_team_repository" "admin-network-config" {
     permission = "admin"
 }
 
+resource "github_team_repository" "admin-ictsc-k8s-cluster" {
+    team_id = "${github_team.admin.id}"
+    repository = "ictsc-k8s-cluster"
+    permission = "admin"
+}
+
 // Team Members
 
 resource "github_team_membership" "admin-whywaita" {
@@ -77,6 +78,12 @@ resource "github_team_membership" "admin-sharknasuhorse" {
 resource "github_team_membership" "admin-uplus" {
   team_id  = "${github_team.admin.id}"
   username = "${github_membership.uplus.username}"
+  role     = "member"
+}
+
+resource "github_team_membership" "admin-yukamoja" {
+  team_id  = "${github_team.admin.id}"
+  username = "${github_membership.yukamoja.username}"
   role     = "member"
 }
 

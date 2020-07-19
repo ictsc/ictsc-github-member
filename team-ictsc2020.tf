@@ -7,11 +7,6 @@ resource "github_team" "ictsc2020" {
 
 
 // ### Team Repository Resource ###
-resource "github_team_repository" "ictsc2020-ictsc-sandbox" {
-    team_id = "${github_team.ictsc2020.id}"
-    repository = "ictsc-sandbox"
-    permission = "admin"
-}
 
 resource "github_team_repository" "ictsc2020-ictsc-problems" {
     team_id = "${github_team.ictsc2020.id}"
@@ -66,6 +61,11 @@ resource "github_team_repository" "ictsc2020-prep-relate" {
     permission = "push"
 }
 
+resource "github_team_repository" "ictsc2020-ictsc-k8s-cluster" {
+    team_id = "${github_team.ictsc2020.id}"
+    repository = "ictsc-k8s-cluster"
+    permission = "push"
+}
 
 // ### Team Members ###
 
@@ -229,6 +229,13 @@ resource "github_team_membership" "ictsc2020-zeroalphat" {
 resource "github_team_membership" "ictsc2020-tanishi001" {
   team_id = "${github_team.ictsc2020.id}"
   username = "${github_membership.tanishi001.username}"
+  role = "member"
+}
+
+// x86taka(Takaharu Umeda)
+resource "github_team_membership" "ictsc2020-x86taka" {
+  team_id = "${github_team.ictsc2020.id}"
+  username = "${github_membership.x86taka.username}"
   role = "member"
 }
 
