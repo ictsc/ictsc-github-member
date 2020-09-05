@@ -1,35 +1,35 @@
 // Team
 resource "github_team" "ictsc2019" {
-  name = "ictsc2019"
+  name        = "ictsc2019"
   description = "member of ictsc2019"
-  privacy = "closed"
+  privacy     = "closed"
 }
 
 // Team Repository Resource
 
 // Team Members
 resource "github_team_membership" "ictsc2019-h-otter" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.h-otter.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-Kurorororo" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.Kurorororo.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-icchy" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.icchy.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-gurapomu" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.gurapomu.username}"
-  role = "member"
+  role     = "member"
 }
 
 // resource "github_team_membership" "ictsc2019-takumimoja" {
@@ -39,123 +39,123 @@ resource "github_team_membership" "ictsc2019-gurapomu" {
 // }
 
 resource "github_team_membership" "ictsc2019-uplus" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.uplus.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-sharknasuhorse" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.sharknasuhorse.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-takehaya" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.takehaya.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-proelbtn" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.proelbtn.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-potyama" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.potyama.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-onokatio" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.onokatio.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-rlia" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.rlia.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-Terfno" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.Terfno.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-kapibara824" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.kapibara824.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-yo-kanyukari" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.yo-kanyukari.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-yoneyan" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.yoneyan.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-ophum" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.ophum.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-TenkiGit" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.TenkiGit.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-tt222" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.tt222.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-site0801" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.site0801.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-arupakan125" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.arupakan125.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-chouett0" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.chouett0.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-Iwancof" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.Iwancof.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-hibiki31" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.hibiki31.username}"
-  role = "member"
+  role     = "member"
 }
 
 resource "github_team_membership" "ictsc2019-beggarl" {
-  team_id = "${github_team.ictsc2019.id}"
+  team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.beggarl.username}"
-  role = "member"
+  role     = "member"
 }
 
 // ICTSC2019 実行委員
