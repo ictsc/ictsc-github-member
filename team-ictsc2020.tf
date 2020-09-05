@@ -67,6 +67,12 @@ resource "github_team_repository" "ictsc2020-ictsc-k8s-cluster" {
     permission = "push"
 }
 
+resource "github_team_repository" "ictsc2020-k8s-manifest" {
+    team_id = "${github_team.ictsc2020.id}"
+    repository = "k8s-manifest"
+    permission = "push"
+}
+
 // ### Team Members ###
 
 // takumi.h
