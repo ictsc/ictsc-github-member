@@ -511,7 +511,7 @@ resource "github_membership" "Hicky1025" {
 // takemaru
 resource "github_membership" "zeroalphat" {
   username = "zeroalphat"
-  role     = "member"
+  role     = "admin"
 }
 
 // nyanco
