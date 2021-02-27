@@ -523,6 +523,6 @@ resource "github_membership" "tanishi001" {
 // x86taka
 resource "github_membership" "x86taka" {
   username = "x86taka"
-  role     = "member"
+  role     = "admin"
 }
 
