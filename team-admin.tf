@@ -104,3 +104,9 @@ resource "github_team_membership" "admin-x86taka" {
   username = "${github_membership.x86taka.username}"
   role     = "member"
 }
+
+resource "github_team_membership" "admin-proelbtn" {
+  team_id  = "${github_team.admin.id}"
+  username = "${github_membership.proelbtn.username}"
+  role     = "member"
+}
