@@ -411,11 +411,6 @@ resource "github_membership" "TenkiGit" {
   role     = "member"
 }
 
-resource "github_membership" "tt222" {
-  username = "tt222"
-  role     = "member"
-}
-
 resource "github_membership" "site0801" {
   username = "site0801"
   role     = "member"

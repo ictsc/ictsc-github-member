@@ -124,13 +124,6 @@ resource "github_team_membership" "ictsc2020-Terfno" {
   role     = "member"
 }
 
-// TT(takuya takahashi)
-resource "github_team_membership" "ictsc2020-tt222" {
-  team_id  = "${github_team.ictsc2020.id}"
-  username = "${github_membership.tt222.username}"
-  role     = "member"
-}
-
 // Taiki Watanabe
 resource "github_team_membership" "ictsc2020-TenkiGit" {
   team_id  = "${github_team.ictsc2020.id}"
