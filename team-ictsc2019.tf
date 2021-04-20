@@ -116,12 +116,6 @@ resource "github_team_membership" "ictsc2019-TenkiGit" {
   role     = "member"
 }
 
-resource "github_team_membership" "ictsc2019-tt222" {
-  team_id  = "${github_team.ictsc2019.id}"
-  username = "${github_membership.tt222.username}"
-  role     = "member"
-}
-
 resource "github_team_membership" "ictsc2019-site0801" {
   team_id  = "${github_team.ictsc2019.id}"
   username = "${github_membership.site0801.username}"
