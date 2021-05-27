@@ -152,5 +152,33 @@ resource "github_team_membership" "ictsc2021-x86taka" {
   role     = "member"
 }
 
+// K-shir0
+resource "github_team_membership" "ictsc2021-K-shir0" {
+  team_id  = "${github_team.ictsc2021.id}"
+  username = "${github_membership.K-shir0.username}"
+  role     = "member"
+}
+
+// Explosive6363
+resource "github_team_membership" "ictsc2021-Explosive6363" {
+  team_id  = "${github_team.ictsc2021.id}"
+  username = "${github_membership.Explosive6363.username}"
+  role     = "member"
+}
+
+// chaya2z
+resource "github_team_membership" "ictsc2021-chaya2z" {
+  team_id  = "${github_team.ictsc2021.id}"
+  username = "${github_membership.chaya2z.username}"
+  role     = "member"
+}
+
+// tomatoaas
+resource "github_team_membership" "ictsc2021-tomatoaas" {
+  team_id  = "${github_team.ictsc2021.id}"
+  username = "${github_membership.tomatoaas.username}"
+  role     = "member"
+}
+
 // ### 実行委員 ###
 

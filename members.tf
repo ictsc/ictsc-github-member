@@ -521,3 +521,29 @@ resource "github_membership" "x86taka" {
   role     = "admin"
 }
 
+// ICTSC2021 新規運営委員
+
+// k-shir0
+resource "github_membership" "K-shir0" {
+  username = "K-shir0"
+  role     = "member"
+}
+
+// Explosive6363
+resource "github_membership" "Explosive6363" {
+  username = "Explosive6363"
+  role     = "admin"
+}
+
+// chaya2z
+resource "github_membership" "chaya2z" {
+  username = "chaya2z"
+  role     = "member"
+}
+
+// tomatoaas
+resource "github_membership" "tomatoaas" {
+  username = "tomatoaas"
+  role     = "member"
+}
+
