@@ -73,6 +73,24 @@ resource "github_team_repository" "ictsc2021-k8s-manifest" {
   permission = "push"
 }
 
+resource "github_team_repository" "ictsc2021-terraform-sacloud-common" {
+  team_id    = "${github_team.admin.id}"
+  repository = "terraform-sacloud-common"
+  permission = "maintain"
+}
+
+resource "github_team_repository" "ictsc2021-terraform-ictsc-net" {
+  team_id    = "${github_team.admin.id}"
+  repository = "terraform-ictsc-net"
+  permission = "maintain"
+}
+
+resource "github_team_repository" "ictsc2021-terraform-icttoracon-net" {
+  team_id    = "${github_team.admin.id}"
+  repository = "terraform-icttoracon-net"
+  permission = "maintain"
+}
+
 // ### Team Members ###
 
 // proelbtn
