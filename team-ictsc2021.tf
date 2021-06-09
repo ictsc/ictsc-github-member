@@ -73,6 +73,24 @@ resource "github_team_repository" "ictsc2021-k8s-manifest" {
   permission = "push"
 }
 
+resource "github_team_repository" "ictsc2021-terraform-sacloud-common" {
+  team_id    = "${github_team.admin.id}"
+  repository = "terraform-sacloud-common"
+  permission = "maintain"
+}
+
+resource "github_team_repository" "ictsc2021-terraform-ictsc-net" {
+  team_id    = "${github_team.admin.id}"
+  repository = "terraform-ictsc-net"
+  permission = "maintain"
+}
+
+resource "github_team_repository" "ictsc2021-terraform-icttoracon-net" {
+  team_id    = "${github_team.admin.id}"
+  repository = "terraform-icttoracon-net"
+  permission = "maintain"
+}
+
 // ### Team Members ###
 
 // proelbtn
@@ -149,6 +167,34 @@ resource "github_team_membership" "ictsc2021-Hicky1025" {
 resource "github_team_membership" "ictsc2021-x86taka" {
   team_id  = "${github_team.ictsc2021.id}"
   username = "${github_membership.x86taka.username}"
+  role     = "member"
+}
+
+// K-shir0
+resource "github_team_membership" "ictsc2021-K-shir0" {
+  team_id  = "${github_team.ictsc2021.id}"
+  username = "${github_membership.K-shir0.username}"
+  role     = "member"
+}
+
+// Explosive6363
+resource "github_team_membership" "ictsc2021-Explosive6363" {
+  team_id  = "${github_team.ictsc2021.id}"
+  username = "${github_membership.Explosive6363.username}"
+  role     = "member"
+}
+
+// chaya2z
+resource "github_team_membership" "ictsc2021-chaya2z" {
+  team_id  = "${github_team.ictsc2021.id}"
+  username = "${github_membership.chaya2z.username}"
+  role     = "member"
+}
+
+// tomatoaas
+resource "github_team_membership" "ictsc2021-tomatoaas" {
+  team_id  = "${github_team.ictsc2021.id}"
+  username = "${github_membership.tomatoaas.username}"
   role     = "member"
 }
 
