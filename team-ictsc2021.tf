@@ -73,6 +73,12 @@ resource "github_team_repository" "ictsc2021-k8s-manifest" {
   permission = "push"
 }
 
+resource "github_team_repository" "ictsc2021-tasks" {
+  team_id    = "${github_team.ictsc2021.id}"
+  repository = "tasks"
+  permission = "push"
+}
+
 resource "github_team_repository" "ictsc2021-terraform-sacloud-common" {
   team_id    = "${github_team.admin.id}"
   repository = "terraform-sacloud-common"
