@@ -113,6 +113,6 @@ resource "github_team_membership" "admin-proelbtn" {
 
 resource "github_team_membership" "admin-onokatio" {
   team_id  = "${github_team.admin.id}"
-  username = "${github_membership.proelbtn.onokatio}"
+  username = "${github_membership.onokatio.username}"
   role     = "member"
 }
