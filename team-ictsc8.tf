@@ -45,11 +45,13 @@ resource "github_team_membership" "ictsc8-bosan120" {
   role     = "member"
 }
 
+/*
 resource "github_team_membership" "ictsc8-if001" {
   team_id  = "${github_team.ictsc8.id}"
   username = "${github_membership.if001.username}"
   role     = "member"
 }
+*/
 
 resource "github_team_membership" "ictsc8-inuyosi" {
   team_id  = "${github_team.ictsc8.id}"
@@ -63,11 +65,13 @@ resource "github_team_membership" "ictsc8-Kurorororo" {
   role     = "member"
 }
 
+/*
 resource "github_team_membership" "ictsc8-alisamon" {
   team_id  = "${github_team.ictsc8.id}"
   username = "${github_membership.alisamon.username}"
   role     = "member"
 }
+*/
 
 resource "github_team_membership" "ictsc8-yatuhashi" {
   team_id  = "${github_team.ictsc8.id}"

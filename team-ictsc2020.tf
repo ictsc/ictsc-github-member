@@ -203,12 +203,14 @@ resource "github_team_membership" "ictsc2020-naoki2001" {
   role     = "member"
 }
 
+/*
 // shinya fumika
 resource "github_team_membership" "ictsc2020-928k1110" {
   team_id  = "${github_team.ictsc2020.id}"
   username = "${github_membership.928k1110.username}"
   role     = "member"
 }
+*/
 
 // hikida
 resource "github_team_membership" "ictsc2020-Hicky1025" {

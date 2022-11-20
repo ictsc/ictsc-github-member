@@ -45,11 +45,13 @@ resource "github_team_membership" "ictsc6-h-otter" {
   role     = "member"
 }
 
+/*
 resource "github_team_membership" "ictsc6-suzuek" {
   team_id  = "${github_team.ictsc6.id}"
   username = "${github_membership.suzuek.username}"
   role     = "member"
 }
+*/
 
 resource "github_team_membership" "ictsc6-int-tt" {
   team_id  = "${github_team.ictsc6.id}"
