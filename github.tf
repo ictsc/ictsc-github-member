@@ -7,6 +7,6 @@ variable "github_organization" {
 }
 
 provider "github" {
-  token = "${var.github_token}"
-  owner = "${var.github_organization}"
+  token = var.github_token
+  owner = var.github_organization
 }

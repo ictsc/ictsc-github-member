@@ -8,43 +8,43 @@ resource "github_team" "admin" {
 // Team Repository Resource
 
 resource "github_team_repository" "admin-ictsc-problems" {
-  team_id    = "${github_team.admin.id}"
+  team_id    = github_team.admin.id
   repository = "ictsc-problems"
   permission = "admin"
 }
 
 resource "github_team_repository" "admin-ictsc-network" {
-  team_id    = "${github_team.admin.id}"
+  team_id    = github_team.admin.id
   repository = "ictsc-network"
   permission = "admin"
 }
 
 resource "github_team_repository" "admin-ictsc-playbooks" {
-  team_id    = "${github_team.admin.id}"
+  team_id    = github_team.admin.id
   repository = "ictsc-playbooks"
   permission = "admin"
 }
 
 resource "github_team_repository" "admin-ictsc-score-server" {
-  team_id    = "${github_team.admin.id}"
+  team_id    = github_team.admin.id
   repository = "ictsc-score-server"
   permission = "admin"
 }
 
 resource "github_team_repository" "admin-kakisute-script" {
-  team_id    = "${github_team.admin.id}"
+  team_id    = github_team.admin.id
   repository = "kakisute-script"
   permission = "admin"
 }
 
 resource "github_team_repository" "admin-network-config" {
-  team_id    = "${github_team.admin.id}"
+  team_id    = github_team.admin.id
   repository = "network-config"
   permission = "admin"
 }
 
 resource "github_team_repository" "admin-ictsc-k8s-cluster" {
-  team_id    = "${github_team.admin.id}"
+  team_id    = github_team.admin.id
   repository = "ictsc-k8s-cluster"
   permission = "admin"
 }
@@ -52,67 +52,67 @@ resource "github_team_repository" "admin-ictsc-k8s-cluster" {
 // Team Members
 
 resource "github_team_membership" "admin-whywaita" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.whywaita.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.whywaita.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-tar-xzvff" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.tar-xzvff.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.tar-xzvff.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-h-otter" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.h-otter.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.h-otter.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-sharknasuhorse" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.sharknasuhorse.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.sharknasuhorse.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-uplus" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.uplus.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.uplus.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-yukamoja" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.yukamoja.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.yukamoja.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-takemhaya" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.takehaya.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.takehaya.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-zeroalphat" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.zeroalphat.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.zeroalphat.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-x86taka" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.x86taka.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.x86taka.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-proelbtn" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.proelbtn.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.proelbtn.username
   role     = "member"
 }
 
 resource "github_team_membership" "admin-onokatio" {
-  team_id  = "${github_team.admin.id}"
-  username = "${github_membership.onokatio.username}"
+  team_id  = github_team.admin.id
+  username = github_membership.onokatio.username
   role     = "member"
 }

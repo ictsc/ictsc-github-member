@@ -499,11 +499,13 @@ resource "github_membership" "naoki2001" {
   role     = "member"
 }
 
+/*
 // shinya
 resource "github_membership" "928k1110" {
   username = "928k1110"
   role     = "member"
 }
+*/
 
 // hikida
 resource "github_membership" "Hicky1025" {
