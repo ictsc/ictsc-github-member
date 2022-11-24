@@ -50,11 +50,11 @@ resource "github_team_membership" "ictsc4-staybuzz" {
   role     = "member"
 }
 
-resource "github_team_membership" "ictsc4-suzutan" {
-  team_id  = github_team.ictsc4.id
-  username = github_membership.suzutan.username
-  role     = "member"
-}
+//resource "github_team_membership" "ictsc4-suzutan" {
+//  team_id  = github_team.ictsc4.id
+//  username = github_membership.suzutan.username
+//  role     = "member"
+//}
 
 resource "github_team_membership" "ictsc4-whywaita" {
   team_id  = github_team.ictsc4.id

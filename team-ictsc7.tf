@@ -15,11 +15,11 @@ resource "github_team_membership" "ictsc7-kyontan" {
   role     = "member"
 }
 
-resource "github_team_membership" "ictsc7-suzutan" {
-  team_id  = github_team.ictsc7.id
-  username = github_membership.suzutan.username
-  role     = "member"
-}
+//resource "github_team_membership" "ictsc7-suzutan" {
+//  team_id  = github_team.ictsc7.id
+//  username = github_membership.suzutan.username
+//  role     = "member"
+//}
 
 resource "github_team_membership" "ictsc7-h-otter" {
   team_id  = github_team.ictsc7.id
