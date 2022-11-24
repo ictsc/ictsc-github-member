@@ -9,7 +9,6 @@ resource "github_team" "ictsc2021" {
 // ### Team Repository Resource ###
 
 
-
 // ### Team Members ###
 
 // proelbtn

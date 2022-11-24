@@ -13,12 +13,6 @@ resource "github_team_repository" "admin-ictsc-problems" {
   permission = "admin"
 }
 
-resource "github_team_repository" "admin-ictsc-network" {
-  team_id    = github_team.admin.id
-  repository = "ictsc-network"
-  permission = "admin"
-}
-
 resource "github_team_repository" "admin-ictsc-playbooks" {
   team_id    = github_team.admin.id
   repository = "ictsc-playbooks"
