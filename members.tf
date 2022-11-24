@@ -50,6 +50,11 @@ resource "github_membership" "takehaya" {
   role     = "admin"
 }
 
+resource "github_membership" "proelbtn" {
+  username = "proelbtn"
+  role     = "admin"
+}
+
 // Members
 
 resource "github_membership" "notchi590" {
@@ -354,11 +359,6 @@ resource "github_membership" "freedom18" {
   role     = "member"
 }
 */
-
-resource "github_membership" "proelbtn" {
-  username = "proelbtn"
-  role     = "admin"
-}
 
 resource "github_membership" "orin24" {
   username = "orin24"
