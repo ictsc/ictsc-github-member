@@ -7,6 +7,7 @@ jobs:
       - checkout
       - run:
           command: |
+            wget https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate
             terraform init
             terraform plan
 
