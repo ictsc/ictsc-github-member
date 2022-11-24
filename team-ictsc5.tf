@@ -142,11 +142,11 @@ resource "github_team_membership" "ictsc5-sukekawa-accelia" {
   role     = "member"
 }
 
-resource "github_team_membership" "ictsc5-suzutan" {
-  team_id  = github_team.ictsc5.id
-  username = github_membership.suzutan.username
-  role     = "member"
-}
+//resource "github_team_membership" "ictsc5-suzutan" {
+//  team_id  = github_team.ictsc5.id
+//  username = github_membership.suzutan.username
+//  role     = "member"
+//}
 
 resource "github_team_membership" "ictsc5-takes3" {
   team_id  = github_team.ictsc5.id

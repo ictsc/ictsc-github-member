@@ -159,10 +159,10 @@ resource "github_membership" "sukekawa-accelia" {
   role     = "member"
 }
 
-resource "github_membership" "suzutan" {
-  username = "suzutan"
-  role     = "member"
-}
+//resource "github_membership" "suzutan" {
+//  username = "suzutan"
+//  role     = "member"
+//}
 
 resource "github_membership" "takes3" {
   username = "takes3"
@@ -194,10 +194,10 @@ resource "github_membership" "kadokusei" {
 //     role = "member"
 // }
 
-resource "github_membership" "suzuek" {
-  username = "SuzueK"
-  role     = "member"
-}
+//resource "github_membership" "suzuek" {
+//  username = "SuzueK"
+//  role     = "member"
+//}
 
 resource "github_membership" "int-tt" {
   username = "int-tt"
@@ -382,7 +382,7 @@ resource "github_membership" "NozomiSugiyama" {
 
 resource "github_membership" "onokatio" {
   username = "onokatio"
-  role     = "member"
+  role     = "admin"
 }
 
 resource "github_membership" "rlia" {
@@ -516,7 +516,7 @@ resource "github_membership" "Hicky1025" {
 // takemaru
 resource "github_membership" "zeroalphat" {
   username = "zeroalphat"
-  role     = "admin"
+  role     = "member"
 }
 
 // nyanco
@@ -556,4 +556,6 @@ resource "github_membership" "tomatoaas" {
   username = "tomatoaas"
   role     = "member"
 }
+
+// ICTSC2022 新規運営委員
 
