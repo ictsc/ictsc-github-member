@@ -82,11 +82,13 @@ resource "github_team_membership" "ictsc2018-sharknasuhorse" {
   role     = "member"
 }
 
+/*
 resource "github_team_membership" "ictsc2018-shinonome01" {
   team_id  = "${github_team.ictsc2018.id}"
   username = "${github_membership.shinonome01.username}"
   role     = "member"
 }
+*/
 
 resource "github_team_membership" "ictsc2018-kyontan" {
   team_id  = "${github_team.ictsc2018.id}"

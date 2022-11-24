@@ -110,11 +110,13 @@ resource "github_team_membership" "ictsc5-palloc" {
   role     = "member"
 }
 
+/*
 resource "github_team_membership" "ictsc5-ronorono45" {
   team_id  = "${github_team.ictsc5.id}"
   username = "${github_membership.ronorono45.username}"
   role     = "member"
 }
+*/
 
 resource "github_team_membership" "ictsc5-sora34" {
   team_id  = "${github_team.ictsc5.id}"

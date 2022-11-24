@@ -33,11 +33,13 @@ resource "github_team_membership" "ictsc9-Kurorororo" {
   role     = "member"
 }
 
+/*
 resource "github_team_membership" "ictsc9-alisamon" {
   team_id  = "${github_team.ictsc9.id}"
   username = "${github_membership.alisamon.username}"
   role     = "member"
 }
+*/
 
 resource "github_team_membership" "ictsc9-yatuhashi" {
   team_id  = "${github_team.ictsc9.id}"
@@ -129,12 +131,15 @@ resource "github_team_membership" "ictsc9-nomeaning777" {
   role     = "member"
 }
 
+/*
 resource "github_team_membership" "ictsc9-shinonome01" {
   team_id  = "${github_team.ictsc9.id}"
   username = "${github_membership.shinonome01.username}"
   role     = "member"
 }
+*/
 
+/*
 resource "github_team_membership" "ictsc9-itakuya" {
   team_id  = "${github_team.ictsc9.id}"
   username = "${github_membership.itakuya.username}"
@@ -146,3 +151,4 @@ resource "github_team_membership" "ictsc9-freedom18" {
   username = "${github_membership.freedom18.username}"
   role     = "member"
 }
+*/

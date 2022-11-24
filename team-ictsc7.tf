@@ -75,6 +75,7 @@ resource "github_team_membership" "ictsc7-bosan120" {
   role     = "member"
 }
 
+/*
 resource "github_team_membership" "ictsc7-if001" {
   team_id  = "${github_team.ictsc7.id}"
   username = "${github_membership.if001.username}"
@@ -86,6 +87,7 @@ resource "github_team_membership" "ictsc7-matsurika1226" {
   username = "${github_membership.matsurika1226.username}"
   role     = "member"
 }
+*/
 
 resource "github_team_membership" "ictsc7-inuyosi" {
   team_id  = "${github_team.ictsc7.id}"
