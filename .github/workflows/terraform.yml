@@ -18,6 +18,7 @@ jobs:
         uses: tibdex/github-app-token@v1.7.0
         with:
           app_id: ${{ secrets.APP_ID }}
+          installation_id: 31536419
           private_key: ${{ secrets.PRIVATE_KEY }}
 
       - name: Setup Terraform
