@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: hashicorp/terraform:0.11.15
+      - image: hashicorp/terraform:1.3.5
     steps:
       - checkout
       - run:
@@ -13,7 +13,7 @@ jobs:
 
   deploy:
     docker:
-      - image: hashicorp/terraform:0.11.15
+      - image: hashicorp/terraform:1.3.5
     steps:
       - checkout
       - run:
@@ -41,5 +41,5 @@ workflows:
       - deploy:
           filters:
             branches:
-              only:                
+              only:
                 - production
