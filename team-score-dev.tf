@@ -7,14 +7,14 @@ resource "github_team" "score-dev" {
 
 // Team repository resource
 resource "github_team_repository" "score-dev-ictsc-score-server" {
-  team_id    = "${github_team.score-dev.id}"
+  team_id    = github_team.score-dev.id
   repository = "ictsc-score-server"
   permission = "admin"
 }
 
 // Team Members
 resource "github_team_membership" "score-dev-uplus" {
-  team_id  = "${github_team.score-dev.id}"
-  username = "${github_membership.uplus.username}"
+  team_id  = github_team.score-dev.id
+  username = github_membership.uplus.username
   role     = "maintainer"
 }

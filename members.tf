@@ -132,10 +132,12 @@ resource "github_membership" "palloc" {
   role     = "member"
 }
 
+/*
 resource "github_membership" "ronorono45" {
   username = "ronorono45"
   role     = "member"
 }
+*/
 
 resource "github_membership" "sora34" {
   username = "sora34"
@@ -257,6 +259,7 @@ resource "github_membership" "bosan120" {
   role     = "member"
 }
 
+/*
 resource "github_membership" "if001" {
   username = "if001"
   role     = "member"
@@ -266,6 +269,7 @@ resource "github_membership" "matsurika1226" {
   username = "matsurika1226"
   role     = "member"
 }
+*/
 
 resource "github_membership" "inuyosi" {
   username = "inuyosi"
@@ -277,10 +281,12 @@ resource "github_membership" "Kurorororo" {
   role     = "member"
 }
 
+/*
 resource "github_membership" "alisamon" {
   username = "alisamon"
   role     = "member"
 }
+*/
 
 resource "github_membership" "alias-aria" {
   username = "alias-aria"
@@ -342,6 +348,7 @@ resource "github_membership" "shinonome01" {
   role     = "member"
 }
 
+/*
 resource "github_membership" "itakuya" {
   username = "itakuya"
   role     = "member"
@@ -351,6 +358,7 @@ resource "github_membership" "freedom18" {
   username = "freedom18"
   role     = "member"
 }
+*/
 
 resource "github_membership" "orin24" {
   username = "orin24"
@@ -491,11 +499,13 @@ resource "github_membership" "naoki2001" {
   role     = "member"
 }
 
+/*
 // shinya
 resource "github_membership" "928k1110" {
   username = "928k1110"
   role     = "member"
 }
+*/
 
 // hikida
 resource "github_membership" "Hicky1025" {

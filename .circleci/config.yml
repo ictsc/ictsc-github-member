@@ -1,18 +1,17 @@
 version: 2
 jobs:
   test:
-    working_directory: ~ictsc-github-member
     docker:
       - image: hashicorp/terraform:0.11.15
     steps:
       - checkout
       - run:
           command: |
+            wget https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate
             terraform init
             terraform plan
 
   deploy:
-    working_directory: ~ictsc-github-member
     docker:
       - image: hashicorp/terraform:0.11.15
     steps:
