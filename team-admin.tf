@@ -51,12 +51,6 @@ resource "github_team_membership" "admin-takemhaya" {
   role     = "member"
 }
 
-resource "github_team_membership" "admin-zeroalphat" {
-  team_id  = github_team.admin.id
-  username = github_membership.zeroalphat.username
-  role     = "member"
-}
-
 resource "github_team_membership" "admin-x86taka" {
   team_id  = github_team.admin.id
   username = github_membership.x86taka.username
