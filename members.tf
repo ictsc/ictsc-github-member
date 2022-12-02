@@ -559,3 +559,27 @@ resource "github_membership" "tomatoaas" {
 
 // ICTSC2022 新規運営委員
 
+// Nishinoyama
+resource "github_membership" "Nishinoyama" {
+  username = "Nishinoyama"
+  role     = "member"
+}
+
+// Crow314
+resource "github_membership" "Crow314" {
+  username = "Crow314"
+  role     = "member"
+}
+
+
+//shuumai
+resource "github_membership" "syuuya-nakatomi" {
+  username = "syuuya-nakatomi"
+  role     = "member"
+}
+
+// logica
+resource "github_membership" "logica0419" {
+  username = "logica0419"
+  role     = "member"
+}

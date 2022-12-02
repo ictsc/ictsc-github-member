@@ -7,42 +7,6 @@ resource "github_team" "admin" {
 
 // Team Repository Resource
 
-resource "github_team_repository" "admin-ictsc-problems" {
-  team_id    = github_team.admin.id
-  repository = "ictsc-problems"
-  permission = "admin"
-}
-
-resource "github_team_repository" "admin-ictsc-playbooks" {
-  team_id    = github_team.admin.id
-  repository = "ictsc-playbooks"
-  permission = "admin"
-}
-
-resource "github_team_repository" "admin-ictsc-score-server" {
-  team_id    = github_team.admin.id
-  repository = "ictsc-score-server"
-  permission = "admin"
-}
-
-resource "github_team_repository" "admin-kakisute-script" {
-  team_id    = github_team.admin.id
-  repository = "kakisute-script"
-  permission = "admin"
-}
-
-resource "github_team_repository" "admin-network-config" {
-  team_id    = github_team.admin.id
-  repository = "network-config"
-  permission = "admin"
-}
-
-resource "github_team_repository" "admin-ictsc-k8s-cluster" {
-  team_id    = github_team.admin.id
-  repository = "ictsc-k8s-cluster"
-  permission = "admin"
-}
-
 // Team Members
 
 resource "github_team_membership" "admin-whywaita" {
@@ -84,12 +48,6 @@ resource "github_team_membership" "admin-yukamoja" {
 resource "github_team_membership" "admin-takemhaya" {
   team_id  = github_team.admin.id
   username = github_membership.takehaya.username
-  role     = "member"
-}
-
-resource "github_team_membership" "admin-zeroalphat" {
-  team_id  = github_team.admin.id
-  username = github_membership.zeroalphat.username
   role     = "member"
 }
 
