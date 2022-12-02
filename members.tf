@@ -570,3 +570,16 @@ resource "github_membership" "Crow314" {
   username = "Crow314"
   role     = "member"
 }
+
+
+//shuumai
+resource "github_membership" "syuuya-nakatomi" {
+  username = "syuuya-nakatomi"
+  role     = "member"
+}
+
+// logica
+resource "github_membership" "logica0419" {
+  username = "logica0419"
+  role     = "member"
+}
