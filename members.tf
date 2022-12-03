@@ -400,7 +400,7 @@ resource "github_membership" "kapibara824" {
 }
 
 resource "github_membership" "yo-kanyukari" {
-  username = "yo-kanyukari"
+  username = "siberiy4"
   role     = "member"
 }
 
