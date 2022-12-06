@@ -1,6 +1,6 @@
 # ICTSC github members
 
-[![CircleCI](https://circleci.com/gh/ictsc/ictsc-github-member.svg?style=svg)](https://circleci.com/gh/ictsc/ictsc-github-member)
+[![Terraform](https://github.com/ictsc/ictsc-github-member/actions/workflows/terraform.yml/badge.svg?branch=production)](https://github.com/ictsc/ictsc-github-member/actions/workflows/terraform.yml)
 
 Manage github membership by Terraform
 
