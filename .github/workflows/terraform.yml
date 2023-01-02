@@ -38,7 +38,7 @@ jobs:
         env:
           TF_VAR_github_token: ${{ steps.generate_token.outputs.token }}
         id: plan
-        if: github.ref == 'refs/heads/master'
+        if: github.ref != 'refs/heads/production'
         run: |
           wget https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate
           terraform plan -no-color
