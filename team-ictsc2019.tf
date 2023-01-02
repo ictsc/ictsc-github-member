@@ -11,7 +11,7 @@ resource "github_team" "ictsc2019" {
 resource "github_team_membership" "ictsc2019-h-otter" {
   team_id  = github_team.ictsc2019.id
   username = github_membership.h-otter.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2019-Kurorororo" {
@@ -41,25 +41,25 @@ resource "github_team_membership" "ictsc2019-gurapomu" {
 resource "github_team_membership" "ictsc2019-uplus" {
   team_id  = github_team.ictsc2019.id
   username = github_membership.uplus.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2019-sharknasuhorse" {
   team_id  = github_team.ictsc2019.id
   username = github_membership.sharknasuhorse.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2019-takehaya" {
   team_id  = github_team.ictsc2019.id
   username = github_membership.takehaya.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2019-proelbtn" {
   team_id  = github_team.ictsc2019.id
   username = github_membership.proelbtn.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2019-potyama" {
@@ -71,7 +71,7 @@ resource "github_team_membership" "ictsc2019-potyama" {
 resource "github_team_membership" "ictsc2019-onokatio" {
   team_id  = github_team.ictsc2019.id
   username = github_membership.onokatio.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2019-rlia" {
