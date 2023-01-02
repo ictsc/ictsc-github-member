@@ -47,7 +47,7 @@ resource "github_team_membership" "ictsc5-kadokusei" {
 resource "github_team_membership" "ictsc5-ibucho" {
   team_id  = github_team.ictsc5.id
   username = github_membership.ibucho.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc5-icchy" {
@@ -95,7 +95,7 @@ resource "github_team_membership" "ictsc5-mk0913mnck" {
 resource "github_team_membership" "ictsc5-netmarkjp" {
   team_id  = github_team.ictsc5.id
   username = github_membership.netmarkjp.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc5-notchi590" {
@@ -157,7 +157,7 @@ resource "github_team_membership" "ictsc5-takes3" {
 resource "github_team_membership" "ictsc5-whywaita" {
   team_id  = github_team.ictsc5.id
   username = github_membership.whywaita.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc5-y-monma" {
@@ -181,5 +181,5 @@ resource "github_team_membership" "ictsc5-yo-taro" {
 resource "github_team_membership" "ictsc5-kurochan" {
   team_id  = github_team.ictsc5.id
   username = github_membership.kurochan.username
-  role     = "member"
+  role     = "maintainer"
 }

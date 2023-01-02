@@ -15,14 +15,13 @@ resource "github_team" "ictsc2021" {
 resource "github_team_membership" "ictsc2021-proelbtn" {
   team_id  = github_team.ictsc2021.id
   username = github_membership.proelbtn.username
-  role     = "member"
+  role     = "maintainer"
 }
 
-// maruyama
 resource "github_team_membership" "ictsc2021-onokatio" {
   team_id  = github_team.ictsc2021.id
   username = github_membership.onokatio.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // terfno (Sueda Takahito)
@@ -85,7 +84,7 @@ resource "github_team_membership" "ictsc2021-Hicky1025" {
 resource "github_team_membership" "ictsc2021-x86taka" {
   team_id  = github_team.ictsc2021.id
   username = github_membership.x86taka.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // K-shir0
@@ -99,7 +98,7 @@ resource "github_team_membership" "ictsc2021-K-shir0" {
 resource "github_team_membership" "ictsc2021-Explosive6363" {
   team_id  = github_team.ictsc2021.id
   username = github_membership.Explosive6363.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // chaya2z

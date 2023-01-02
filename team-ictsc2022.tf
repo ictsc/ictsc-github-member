@@ -14,7 +14,7 @@ resource "github_team" "ictsc2022" {
 resource "github_team_membership" "ictsc2022-onokatio" {
   team_id  = github_team.ictsc2022.id
   username = github_membership.onokatio.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // site
@@ -42,7 +42,7 @@ resource "github_team_membership" "ictsc2022-Hicky1025" {
 resource "github_team_membership" "ictsc2022-x86taka" {
   team_id  = github_team.ictsc2022.id
   username = github_membership.x86taka.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // K-shir0
@@ -56,7 +56,7 @@ resource "github_team_membership" "ictsc2022-K-shir0" {
 resource "github_team_membership" "ictsc2022-Explosive6363" {
   team_id  = github_team.ictsc2022.id
   username = github_membership.Explosive6363.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // chaya2z

@@ -18,7 +18,7 @@ resource "github_team_membership" "ictsc8-kyontan" {
 resource "github_team_membership" "ictsc8-h-otter" {
   team_id  = github_team.ictsc8.id
   username = github_membership.h-otter.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc8-palloc" {
@@ -124,7 +124,7 @@ resource "github_team_membership" "ictsc8-staybuzz" {
 resource "github_team_membership" "ictsc8-whywaita" {
   team_id  = github_team.ictsc8.id
   username = github_membership.whywaita.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc8-chisaton1" {
