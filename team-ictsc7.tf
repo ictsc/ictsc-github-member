@@ -24,7 +24,7 @@ resource "github_team_membership" "ictsc7-kyontan" {
 resource "github_team_membership" "ictsc7-h-otter" {
   team_id  = github_team.ictsc7.id
   username = github_membership.h-otter.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc7-guragusan" {

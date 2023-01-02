@@ -15,28 +15,28 @@ resource "github_team" "ictsc2020" {
 resource "github_team_membership" "ictsc2020-yukamoja" {
   team_id  = github_team.ictsc2020.id
   username = github_membership.yukamoja.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // uplus
 resource "github_team_membership" "ictsc2020-uplus" {
   team_id  = github_team.ictsc2020.id
   username = github_membership.uplus.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // takemio
 resource "github_team_membership" "ictsc2020-takehaya" {
   team_id  = github_team.ictsc2020.id
   username = github_membership.takehaya.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // proelbtn
 resource "github_team_membership" "ictsc2020-proelbtn" {
   team_id  = github_team.ictsc2020.id
   username = github_membership.proelbtn.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // potyama
@@ -46,11 +46,10 @@ resource "github_team_membership" "ictsc2020-potyama" {
   role     = "member"
 }
 
-// maruyama
 resource "github_team_membership" "ictsc2020-onokatio" {
   team_id  = github_team.ictsc2020.id
   username = github_membership.onokatio.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // terfno (Sueda Takahito)
@@ -173,7 +172,7 @@ resource "github_team_membership" "ictsc2020-tanishi001" {
 resource "github_team_membership" "ictsc2020-x86taka" {
   team_id  = github_team.ictsc2020.id
   username = github_membership.x86taka.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // ### 実行委員 ###

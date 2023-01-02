@@ -12,13 +12,13 @@ resource "github_team" "ictsc6" {
 resource "github_team_membership" "ictsc6-ibucho" {
   team_id  = github_team.ictsc6.id
   username = github_membership.ibucho.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc6-netmarkjp" {
   team_id  = github_team.ictsc6.id
   username = github_membership.netmarkjp.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc6-y-monma" {
@@ -30,7 +30,7 @@ resource "github_team_membership" "ictsc6-y-monma" {
 resource "github_team_membership" "ictsc6-kurochan" {
   team_id  = github_team.ictsc6.id
   username = github_membership.kurochan.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // resource "github_team_membership" "ictsc6-knium" {
@@ -42,7 +42,7 @@ resource "github_team_membership" "ictsc6-kurochan" {
 resource "github_team_membership" "ictsc6-h-otter" {
   team_id  = github_team.ictsc6.id
   username = github_membership.h-otter.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 /*
@@ -152,6 +152,6 @@ resource "github_team_membership" "ictsc6-asarijiru" {
 resource "github_team_membership" "ictsc6-tar-xzvff" {
   team_id  = github_team.ictsc6.id
   username = github_membership.tar-xzvff.username
-  role     = "member"
+  role     = "maintainer"
 }
 

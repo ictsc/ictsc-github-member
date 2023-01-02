@@ -12,7 +12,7 @@ resource "github_team" "ictsc9" {
 resource "github_team_membership" "ictsc9-h-otter" {
   team_id  = github_team.ictsc9.id
   username = github_membership.h-otter.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc9-palloc" {
@@ -68,7 +68,7 @@ resource "github_team_membership" "ictsc9-icchy" {
 resource "github_team_membership" "ictsc9-whywaita" {
   team_id  = github_team.ictsc9.id
   username = github_membership.whywaita.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc9-chisaton1" {
@@ -110,13 +110,13 @@ resource "github_team_membership" "ictsc9-ha-kun0711" {
 resource "github_team_membership" "ictsc9-uplus" {
   team_id  = github_team.ictsc9.id
   username = github_membership.uplus.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc9-sharknasuhorse" {
   team_id  = github_team.ictsc9.id
   username = github_membership.sharknasuhorse.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc9-tsuttsu305" {

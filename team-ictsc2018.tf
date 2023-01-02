@@ -12,7 +12,7 @@ resource "github_team" "ictsc2018" {
 resource "github_team_membership" "ictsc2018-h-otter" {
   team_id  = github_team.ictsc2018.id
   username = github_membership.h-otter.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2018-palloc" {
@@ -43,7 +43,7 @@ resource "github_team_membership" "ictsc2018-icchy" {
 resource "github_team_membership" "ictsc2018-whywaita" {
   team_id  = github_team.ictsc2018.id
   username = github_membership.whywaita.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2018-gurapomu" {
@@ -73,13 +73,13 @@ resource "github_team_membership" "ictsc2018-ha-kun0711" {
 resource "github_team_membership" "ictsc2018-uplus" {
   team_id  = github_team.ictsc2018.id
   username = github_membership.uplus.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2018-sharknasuhorse" {
   team_id  = github_team.ictsc2018.id
   username = github_membership.sharknasuhorse.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 /*
@@ -99,13 +99,13 @@ resource "github_team_membership" "ictsc2018-kyontan" {
 resource "github_team_membership" "ictsc2018-takehaya" {
   team_id  = github_team.ictsc2018.id
   username = github_membership.takehaya.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2018-proelbtn" {
   team_id  = github_team.ictsc2018.id
   username = github_membership.proelbtn.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 resource "github_team_membership" "ictsc2018-orin24" {
@@ -141,5 +141,5 @@ resource "github_team_membership" "ictsc2018-NozomiSugiyama" {
 resource "github_team_membership" "ictsc2018-onokatio" {
   team_id  = github_team.ictsc2018.id
   username = github_membership.onokatio.username
-  role     = "member"
+  role     = "maintainer"
 }
