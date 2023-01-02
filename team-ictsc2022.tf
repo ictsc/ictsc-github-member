@@ -14,7 +14,7 @@ resource "github_team" "ictsc2022" {
 resource "github_team_membership" "ictsc2022-onokatio" {
   team_id  = github_team.ictsc2022.id
   username = github_membership.onokatio.username
-  role     = "member"
+  role     = "maintainer"
 }
 
 // site
