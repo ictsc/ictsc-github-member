@@ -42,7 +42,7 @@ jobs:
       - name: Terraform Validate
         run: terraform validate -no-color
 
-      - name: get latest state
+      - name: Get latest state
         if: github.ref != 'refs/heads/production'
         run: wget https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate
 
