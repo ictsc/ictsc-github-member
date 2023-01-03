@@ -47,6 +47,8 @@ jobs:
         run: wget https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate
 
       - name: Terraform refresh state
+        env:
+          TF_VAR_github_token: ${{ steps.generate_token.outputs.token }}
         run: terraform refresh -no-color -input=false -parallelism=30
 
       - name: Terraform Plan
