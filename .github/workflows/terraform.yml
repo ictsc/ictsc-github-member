@@ -51,7 +51,7 @@ jobs:
           TF_VAR_github_token: ${{ steps.generate_token.outputs.token }}
         id: plan
         run: terraform plan -no-color -input=false -parallelism=30
-        #continue-on-error: true
+        continue-on-error: true
 
       - uses: actions/github-script@v6
         if: github.event_name == 'pull_request' && steps.plan.outcome != 'failure'
