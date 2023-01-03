@@ -63,8 +63,8 @@ jobs:
         if: github.ref == 'refs/heads/production' && github.event_name == 'push'
         run: |
           terraform apply -auto-approve -input=false
-          git config --global user.email "account@icttoracon.net"
-          git config --global user.name "ictsc-admin"
+          git config --global user.email "action@github.com"
+          git config --global user.name "Github Action"
           git add -f terraform.tfstate
           git commit -m "update terraform state [ci skip]"
           git push origin production
