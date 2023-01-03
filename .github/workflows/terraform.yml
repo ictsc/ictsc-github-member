@@ -33,7 +33,7 @@ jobs:
 
       - name: Terraform Init
         id: init
-        run: terraform init --input=false
+        run: terraform init --input=false -upgrade
 
       - name: Terraform Validate
         run: terraform validate -no-color
