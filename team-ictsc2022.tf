@@ -8,7 +8,6 @@ locals {
     "K-shir0",
     "Explosive6363",
     "chaya2z",
-    "tomatoaas",
     "Nishinoyama",
     "Crow314",
     "syuuya-nakatomi",
