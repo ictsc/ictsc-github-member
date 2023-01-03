@@ -2,6 +2,7 @@ name: "Terraform"
 
 on:
   push:
+  pull_request:
 
 jobs:
   terraform:
@@ -28,11 +29,14 @@ jobs:
 
       - name: Terraform Format
         id: fmt
-        run: terraform fmt -check
+        run: terraform fmt -recursive -check
 
       - name: Terraform Init
         id: init
-        run: terraform init
+        run: terraform init --input=false
+
+      - name: Terraform Validate
+        run: terraform validate -no-color
 
       - name: Terraform Plan
         env:
@@ -41,7 +45,7 @@ jobs:
         if: github.ref != 'refs/heads/production'
         run: |
           wget https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate
-          terraform plan -no-color
+          terraform plan -no-color -input=false
         continue-on-error: true
 
       - name: Terraform Plan Status
@@ -51,9 +55,9 @@ jobs:
       - name: Terraform Apply
         env:
           TF_VAR_github_token: ${{ steps.generate_token.outputs.token }}
-        if: github.ref == 'refs/heads/production'
+        if: github.ref == 'refs/heads/production' && github.event_name == 'push'
         run: |
-          terraform apply -auto-approve
+          terraform apply -auto-approve -input=false
           git config --global user.email "account@icttoracon.net"
           git config --global user.name "ictsc-admin"
           git add -f terraform.tfstate
