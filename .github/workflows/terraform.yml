@@ -38,14 +38,15 @@ jobs:
       - name: Terraform Validate
         run: terraform validate -no-color
 
+      - name: get latest state
+        if: github.ref != 'refs/heads/production'
+        run: wget https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate
+
       - name: Terraform Plan
         env:
           TF_VAR_github_token: ${{ steps.generate_token.outputs.token }}
         id: plan
-        if: github.ref != 'refs/heads/production'
-        run: |
-          wget https://raw.githubusercontent.com/ictsc/ictsc-github-member/production/terraform.tfstate
-          terraform plan -no-color -input=false
+        run: terraform plan -no-color -input=false
         continue-on-error: true
 
       - name: Terraform Plan Status
