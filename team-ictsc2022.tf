@@ -13,7 +13,7 @@ locals {
     "Crow314",
     "syuuya-nakatomi",
     "logica0419",
-    ]
+  ]
 }
 
 // ### Team ###
@@ -27,11 +27,11 @@ resource "github_team" "ictsc2022" {
 
 resource "github_team_members" "ictsc2022" {
   team_id = github_team.ictsc2022.id
-  dynamic members {
+  dynamic "members" {
     for_each = local.ictsc2022_members
     content {
       username = members.value
-      role = "member"
+      role     = "member"
     }
   }
 }
