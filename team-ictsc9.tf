@@ -4,7 +4,6 @@ locals {
     "palloc",
     "naoki912",
     "Kurorororo",
-    "alisamon",
     "yatuhashi",
     "ecodrive-18",
     "mbook-x86",
@@ -14,14 +13,11 @@ locals {
     "gurapomu",
     "SakurazakaShin",
     "acque2two",
-    "takumimoja",
+    "yukamoja",
     "ha-kun0711",
     "uplus",
     "sharknasuhorse",
     "tsuttsu305",
     "nomeaning777",
-    "shinonome01",
-    "itakuya",
-    "freedom18",
   ]
 }
