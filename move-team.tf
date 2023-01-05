@@ -52,3 +52,8 @@ moved {
     from = github_team.ictsc2022
     to = github_team.team["ictsc2022"]
 }
+
+moved {
+    from = github_team_members.ictsc2022
+    to = github_team_members.team_member["ictsc2022"]
+}
