@@ -71,7 +71,7 @@ resource "github_team_members" "team_member" {
   dynamic "members" {
     for_each = each.value
     content {
-      username = members.value
+      username = github_membership.member[members.value].username
       role     = contains(local.admin_members, members.value) ? "maintainer" : "member"
     }
   }
