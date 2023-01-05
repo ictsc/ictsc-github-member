@@ -25,10 +25,10 @@ resource "github_team" "team" {
     "ictsc6",
     "ictsc5",
     "ictsc4",
-    ])
-  name = each.value
+  ])
+  name        = each.value
   description = "member of ${each.value}"
-  privacy = "closed"
+  privacy     = "closed"
 }
 
 // add member to team on github
@@ -39,12 +39,12 @@ resource "github_team_members" "team_member" {
     "ictsc2020" = local.ictsc2020_members,
     "ictsc2019" = local.ictsc2019_members,
     "ictsc2018" = local.ictsc2018_members,
-    "ictsc9" = local.ictsc9_members,
-    "ictsc8" = local.ictsc8_members,
-    "ictsc7" = local.ictsc7_members,
-    "ictsc6" = local.ictsc6_members,
-    "ictsc5" = local.ictsc5_members,
-    "ictsc4" = local.ictsc4_members,
+    "ictsc9"    = local.ictsc9_members,
+    "ictsc8"    = local.ictsc8_members,
+    "ictsc7"    = local.ictsc7_members,
+    "ictsc6"    = local.ictsc6_members,
+    "ictsc5"    = local.ictsc5_members,
+    "ictsc4"    = local.ictsc4_members,
   }
   team_id = github_team.team[each.key].id
   dynamic "members" {
