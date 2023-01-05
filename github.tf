@@ -11,6 +11,22 @@ provider "github" {
   owner = var.github_organization
 }
 
+locals {
+  admins = [
+    "kurochan",
+    "netmarkjp",
+    "ibucho",
+    "whywaita",
+    "tar-xzvff",
+    "h-otter",
+    "sharknasuhorse",
+    "uplus",
+    "yukamoja",
+    "takehaya",
+    "proelbtn",
+  ]
+}
+
 // create team on github
 resource "github_team" "team" {
   for_each = toset([
@@ -51,7 +67,7 @@ resource "github_team_members" "team_member" {
     for_each = each.value
     content {
       username = members.value
-      role     = "member"
+      role     = contains(local.admins, members.value) ? "maintainer" : "member"
     }
   }
 }
