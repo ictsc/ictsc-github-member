@@ -7,7 +7,7 @@ locals {
     "arupakan125",
     "yoneyan",
     "site0801",
-    "yo-kanyukari",
+    "siberiy4",
     "ophum",
     "Hicky1025",
     "x86taka",

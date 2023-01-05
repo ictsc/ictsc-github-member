@@ -12,7 +12,7 @@ locals {
     "arupakan125",
     "yoneyan",
     "site0801",
-    "yo-kanyukari",
+    "siberiy4",
     "ophum",
     "hibiki31",
     "rlia",

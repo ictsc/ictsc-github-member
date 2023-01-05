@@ -14,7 +14,7 @@ locals {
     "gurapomu",
     "SakurazakaShin",
     "acque2two",
-    "takumimoja",
+    "yukamoja",
     "ha-kun0711",
     "uplus",
     "sharknasuhorse",
