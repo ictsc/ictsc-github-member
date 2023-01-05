@@ -4,7 +4,6 @@ locals {
     "netmarkjp",
     "y-monma",
     "kurochan",
-    "knium",
     "h-otter",
     "int-tt",
     "yuukinetwork",
