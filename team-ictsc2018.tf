@@ -12,7 +12,6 @@ locals {
     "ha-kun0711",
     "uplus",
     "sharknasuhorse",
-    "shinonome01",
     "kyontan",
     "takehaya",
     "proelbtn",

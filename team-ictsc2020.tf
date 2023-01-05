@@ -18,7 +18,6 @@ locals {
     "rlia",
     "nakasyo2650",
     "naoki2001",
-    "928k1110",
     "Hicky1025",
     "zeroalphat",
     "tanishi001",

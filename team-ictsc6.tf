@@ -6,7 +6,6 @@ locals {
     "kurochan",
     "knium",
     "h-otter",
-    "suzuek",
     "int-tt",
     "yuukinetwork",
     "a-r-g-v",
