@@ -27,6 +27,7 @@ resource "github_team" "team" {
     "ictsc4",
     ])
   name = each.value
+  description = "member of ${each.value}"
   privacy = "closed"
 }
 
