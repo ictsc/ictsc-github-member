@@ -17,7 +17,6 @@ locals {
     "netmarkjp",
     "notchi590",
     "palloc",
-    "ronorono45",
     "sora34",
     "staybuzz",
     "sugiki-accelia",
