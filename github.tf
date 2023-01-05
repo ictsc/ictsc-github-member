@@ -24,6 +24,9 @@ locals {
     "yukamoja",
     "takehaya",
     "proelbtn",
+    "onokatio",
+    "Explosive6363",
+    "x86taka",
   ]
 }
 
