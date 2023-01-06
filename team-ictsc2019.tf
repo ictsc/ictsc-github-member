@@ -31,7 +31,6 @@ locals {
     "syuli",
     "SallyAcolyte",
     "yu-tanaka00",
-    "koara7",
     "tom--bo",
     "SilEighty-ym",
   ]

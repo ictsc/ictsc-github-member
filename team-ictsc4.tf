@@ -7,7 +7,6 @@ locals {
     "mbook-x86",
     "netmarkjp",
     "staybuzz",
-    "suzutan",
     "whywaita",
     "yatuhashi",
     "yo-taro",
