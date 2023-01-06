@@ -1,7 +1,6 @@
 locals {
   ictsc7_members = [
     "kyontan",
-    "suzutan",
     "h-otter",
     "guragusan",
     "palloc",

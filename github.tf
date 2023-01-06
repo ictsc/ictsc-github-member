@@ -11,28 +11,29 @@ provider "github" {
   owner = var.github_organization
 }
 
-locals {
-  admins = [
-    "kurochan",
-    "netmarkjp",
-    "ibucho",
-    "whywaita",
-    "tar-xzvff",
-    "h-otter",
-    "sharknasuhorse",
-    "uplus",
-    "yukamoja",
-    "takehaya",
-    "proelbtn",
-    "onokatio",
-    "Explosive6363",
-    "x86taka",
-  ]
+// add all member to github org
+resource "github_membership" "member" {
+  for_each = toset(concat(
+    local.ictsc2022_members,
+    local.ictsc2021_members,
+    local.ictsc2020_members,
+    local.ictsc2019_members,
+    local.ictsc2018_members,
+    local.ictsc9_members,
+    local.ictsc8_members,
+    local.ictsc7_members,
+    local.ictsc6_members,
+    local.ictsc5_members,
+    local.ictsc4_members,
+  ))
+  username = each.value
+  role     = contains(local.admin_members, each.value) ? "admin" : "member"
 }
 
 // create team on github
 resource "github_team" "team" {
   for_each = toset([
+    "Admins",
     "ictsc2022",
     "ictsc2021",
     "ictsc2020",
@@ -53,6 +54,7 @@ resource "github_team" "team" {
 // add member to team on github
 resource "github_team_members" "team_member" {
   for_each = {
+    "Admins"    = local.admin_members,
     "ictsc2022" = local.ictsc2022_members,
     "ictsc2021" = local.ictsc2021_members,
     "ictsc2020" = local.ictsc2020_members,
@@ -69,8 +71,8 @@ resource "github_team_members" "team_member" {
   dynamic "members" {
     for_each = each.value
     content {
-      username = members.value
-      role     = contains(local.admins, members.value) ? "maintainer" : "member"
+      username = github_membership.member[members.value].username
+      role     = contains(local.admin_members, members.value) ? "maintainer" : "member"
     }
   }
 }
