@@ -14,5 +14,8 @@ locals {
     "onokatio",
     "Explosive6363",
     "x86taka",
+    "Nishinoyama",
+    "Crow314",
+    "logica0419",
   ]
 }
