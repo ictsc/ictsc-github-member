@@ -14,6 +14,7 @@ provider "github" {
 // add all member to github org
 resource "github_membership" "member" {
   for_each = toset(concat(
+    local.ictsc2024_members,
     local.ictsc2023_members,
     local.ictsc2022_members,
     local.ictsc2021_members,
@@ -35,6 +36,7 @@ resource "github_membership" "member" {
 resource "github_team" "team" {
   for_each = toset([
     "Admins",
+    "ictsc2024",
     "ictsc2023",
     "ictsc2022",
     "ictsc2021",
@@ -57,6 +59,7 @@ resource "github_team" "team" {
 resource "github_team_members" "team_member" {
   for_each = {
     "Admins"    = local.admin_members,
+    "ictsc2024" = local.ictsc2024_members,
     "ictsc2023" = local.ictsc2023_members,
     "ictsc2022" = local.ictsc2022_members,
     "ictsc2021" = local.ictsc2021_members,
