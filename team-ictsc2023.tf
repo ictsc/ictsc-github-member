@@ -4,14 +4,14 @@ locals {
     "x86taka",
     "Nishinoyama",
     "Crow314",
-    "shuumai587",
+    "syuuya-nakatomi",
     "logica0419",
     "momoka0122y",
     "mu-ruU1",
     "Fuuma0000",
     "Art-Atlas",
     "flora058x",
-    "meronpannn",
+    # "meronpannn",
     "ecodrive-18",
   ]
 }
