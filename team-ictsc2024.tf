@@ -1,0 +1,27 @@
+locals {
+  ictsc2024_members = [
+    "onokatio",
+    "x86taka",
+    "Nishinoyama",
+    "Crow314",
+    "syuuya-nakatomi",
+    "logica0419",
+    "mu-ruU1",
+    "Fuuma0000",
+    "Art-Atlas",
+    "flora058x",
+    "Dodai-Dodai",
+    "hitto-hub",
+    "I1da725",
+    "kerthical",
+    "konkichi836",
+    "kouxi08",
+    "onabe3",
+    "private-yusuke",
+    "shou3008",
+    "takato256",
+    "tosuke",
+    "Yosshi72",
+    "210on",
+  ]
+}

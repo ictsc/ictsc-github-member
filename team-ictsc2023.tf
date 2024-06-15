@@ -12,5 +12,6 @@ locals {
     "Art-Atlas",
     "flora058x",
     "meronpannn",
+    "ecodrive-18",
   ]
 }

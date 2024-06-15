@@ -17,5 +17,6 @@ locals {
     "Nishinoyama",
     "Crow314",
     "logica0419",
+    "mu-ruU1",
   ]
 }
