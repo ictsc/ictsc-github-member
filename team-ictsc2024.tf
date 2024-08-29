@@ -23,5 +23,6 @@ locals {
     "tosuke",
     "Yosshi72",
     "210on",
+    "miyashita77",
   ]
 }
