@@ -25,5 +25,6 @@ locals {
     "210on",
     "miyashita77",
     "tsuzu",
+    "yfujii854",
   ]
 }
