@@ -26,5 +26,6 @@ locals {
     "miyashita77",
     "tsuzu",
     "yfujii854",
+    "hide-1",
   ]
 }
