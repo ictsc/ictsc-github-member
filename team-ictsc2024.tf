@@ -27,5 +27,6 @@ locals {
     "tsuzu",
     "yfujii854",
     "hide-1",
+    "jeterdx",
   ]
 }
