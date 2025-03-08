@@ -18,5 +18,6 @@ locals {
     "Crow314",
     "logica0419",
     "mu-ruU1",
+    "tosuke",
   ]
 }
