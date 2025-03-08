@@ -92,7 +92,7 @@ jobs:
 
       - name: Backup tfstate to artifact
         if: github.ref == 'refs/heads/production' && github.event_name == 'push'
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: terraform.tfstate
           path: terraform.tfstate
