@@ -1,5 +1,5 @@
 locals {
-  ictsc2024_members = [
+  ictsc2025_members = [
     "red-3ya",
     "bqc0n",
     "SouJimmy",
