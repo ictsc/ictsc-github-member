@@ -2,7 +2,7 @@ locals {
   ictsc2024_members = [
     "onokatio",
     "x86taka",
-    "Nishinoyama",
+    "nishinoyama",
     "Crow314",
     "syuuya-nakatomi",
     "logica0419",

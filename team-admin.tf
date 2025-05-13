@@ -14,9 +14,14 @@ locals {
     "onokatio",
     "Explosive6363",
     "x86taka",
-    "Nishinoyama",
+    "nishinoyama",
     "Crow314",
     "logica0419",
     "mu-ruU1",
+    "tosuke",
+    "Dodai-Dodai",
+    "private-yusuke",
+    "Art-Atlas",
+    "Fuuma0000",
   ]
 }
