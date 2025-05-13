@@ -21,6 +21,7 @@ locals {
     "tosuke",
     "Dodai-Dodai",
     "private-yusuke",
+    "Art-Atlas",
     "Fuuma0000",
   ]
 }
