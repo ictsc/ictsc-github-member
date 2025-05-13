@@ -8,6 +8,6 @@ Manage github membership by Terraform
 
 ### Sample flow
 
-1. fork this repo.
-1. edit members.tf and team-ictsc6.tf like [this](https://github.com/ictsc/ictsc-github-member/pull/5).
-1. create pull req.
+1. clone this repo.
+2. Cut branches and edit team-ictsc20xx.tf, github.tf and team-admin.tf like [this](https://github.com/ictsc/ictsc-github-member/pull/230).
+3. create pull req.
