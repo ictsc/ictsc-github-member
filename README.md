@@ -10,4 +10,7 @@ Manage github membership by Terraform
 
 1. clone this repo.
 2. Cut branches and edit team-ictsc20xx.tf, github.tf and team-admin.tf like [this](https://github.com/ictsc/ictsc-github-member/pull/230).
-3. create pull req.
+3. create pull req to master.
+4. marge pull req.
+5. create pull req to production.
+6. marge pull req.
