@@ -19,5 +19,9 @@ locals {
     "logica0419",
     "mu-ruU1",
     "tosuke",
+    "private-yusuke",
+    "Art-Atlas",
+    "Fuuma0000",
+    "Dodai-Dodai",
   ]
 }
