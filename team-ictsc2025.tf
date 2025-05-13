@@ -1,0 +1,26 @@
+locals {
+  ictsc2025_members = [
+    "red-3ya",
+    "bqc0n",
+    "SouJimmy",
+    "ishisora",
+    "private-yusuke",
+    "39Hane",
+    "oshamashama",
+    "210on",
+    "takonomura",
+    "Crow314",
+    "hitto-hub",
+    "Art-Atlas",
+    "syuuya-nakatomi",
+    "logica0419",
+    "nishinoyama",
+    "nagayon-935",
+    "tosuke",
+    "k-84mo10",
+    "Fuuma0000",
+    "rk76feWF",
+    "toma1128",
+    "Dodai-Dodai",
+  ]
+}
