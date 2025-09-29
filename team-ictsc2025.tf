@@ -22,5 +22,8 @@ locals {
     "rk76feWF",
     "toma1128",
     "Dodai-Dodai",
+    "yuscarlet",
+    "Ryusuke-Seki",
+    "amechun",
   ]
 }

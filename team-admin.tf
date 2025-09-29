@@ -24,7 +24,5 @@ locals {
     "Art-Atlas",
     "Fuuma0000",
     "yuscarlet",
-    "Ryusuke-Seki",
-    "amechun",
   ]
 }
