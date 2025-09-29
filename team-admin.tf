@@ -23,5 +23,6 @@ locals {
     "private-yusuke",
     "Art-Atlas",
     "Fuuma0000",
+    "yuscarlet",
   ]
 }
