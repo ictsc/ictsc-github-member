@@ -25,5 +25,6 @@ locals {
     "yuscarlet",
     "Ryusuke-Seki",
     "amechun",
+    "takamasa272",
   ]
 }
