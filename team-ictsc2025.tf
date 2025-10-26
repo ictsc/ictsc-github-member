@@ -27,5 +27,7 @@ locals {
     "amechun",
     "takamasa272",
     "y-shimiz",
+    "naoki912",
+    "tsuzu"
   ]
 }
