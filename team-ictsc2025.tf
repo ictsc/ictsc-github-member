@@ -28,6 +28,8 @@ locals {
     "takamasa272",
     "y-shimiz",
     "naoki912",
-    "tsuzu"
+    "tsuzu",
+    "kino-ma",
+    "aoi96",
   ]
 }
