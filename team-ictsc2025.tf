@@ -26,5 +26,6 @@ locals {
     "Ryusuke-Seki",
     "amechun",
     "takamasa272",
+    "y-shimiz",
   ]
 }
