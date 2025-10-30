@@ -23,7 +23,6 @@ locals {
     "chouett0",
     "Iwancof",
     "hibiki31",
-    "beggarl",
     "naoki912",
     "mbook-x86",
     "ecodrive-18",
