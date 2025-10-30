@@ -13,7 +13,6 @@ locals {
     "Dodai-Dodai",
     "hitto-hub",
     "I1da725",
-    "kerthical",
     "konkichi836",
     "kouxi08",
     "onabe3",
