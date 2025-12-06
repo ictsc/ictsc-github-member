@@ -34,5 +34,6 @@ locals {
     "Kurorororo",
     "flora058x",
     "jeterdx",
+    "takehaya",
   ]
 }
