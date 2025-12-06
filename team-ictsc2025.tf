@@ -31,5 +31,8 @@ locals {
     "tsuzu",
     "kino-ma",
     "aoi96",
+    "Kurorororo",
+    "flora058x",
+    "jeterdx",
   ]
 }
