@@ -1,5 +1,5 @@
 locals {
-  ictsc2025_members = [
+  ictsc2026_members = [
     "x86taka",
     "marokiki",
     "Dodai-Dodai",
