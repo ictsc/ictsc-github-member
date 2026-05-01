@@ -28,7 +28,6 @@ locals {
     "ecodrive-18",
     "recuraki",
     "syuli",
-    "SallyAcolyte",
     "yu-tanaka00",
     "tom--bo",
     "SilEighty-ym",

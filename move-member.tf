@@ -59,11 +59,6 @@ moved {
 }
 
 moved {
-  from = github_membership.SallyAcolyte
-  to   = github_membership.member["SallyAcolyte"]
-}
-
-moved {
   from = github_membership.ShotaKitazawa
   to   = github_membership.member["ShotaKitazawa"]
 }
@@ -106,11 +101,6 @@ moved {
 moved {
   from = github_membership.arupakan125
   to   = github_membership.member["arupakan125"]
-}
-
-moved {
-  from = github_membership.asarijiru
-  to   = github_membership.member["asarijiru"]
 }
 
 moved {
