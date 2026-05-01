@@ -6,7 +6,6 @@ locals {
     "Crow314",
     "syuuya-nakatomi",
     "logica0419",
-    "mu-ruU1",
     "Fuuma0000",
     "Art-Atlas",
     "flora058x",
