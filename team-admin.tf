@@ -22,7 +22,8 @@ locals {
     "Dodai-Dodai",
     "private-yusuke",
     "Art-Atlas",
-    "Fuuma0000",
     "yuscarlet",
+    "SouJimmy",
+    "nagayon-935",
   ]
 }
