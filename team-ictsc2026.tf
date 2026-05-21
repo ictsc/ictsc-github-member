@@ -40,5 +40,6 @@ locals {
     "aoi96",
     "flora058x",
     "takehaya",
+    "kotokaze",
   ]
 }
