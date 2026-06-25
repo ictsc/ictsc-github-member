@@ -21,7 +21,6 @@ locals {
     "mono0218",
     "symysak",
     "Hoshiimo0",
-    "dice-2004",
     "ikotome",
     "krox66",
     "Crow314",
