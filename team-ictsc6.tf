@@ -18,6 +18,5 @@ locals {
     "asdfec",
     "notchi590",
     "kamijin-fanta",
-    "tar-xzvff",
   ]
 }
