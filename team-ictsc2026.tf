@@ -40,5 +40,9 @@ locals {
     "flora058x",
     "takehaya",
     "kotokaze",
+    "ibayashi-mirei",
+    "yuki-frb",
+    "sshash46",
+    "bandapart",
   ]
 }
