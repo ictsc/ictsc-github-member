@@ -394,11 +394,6 @@ moved {
 }
 
 moved {
-  from = github_membership.tar-xzvff
-  to   = github_membership.member["tar-xzvff"]
-}
-
-moved {
   from = github_membership.tom--bo
   to   = github_membership.member["tom--bo"]
 }

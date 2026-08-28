@@ -4,7 +4,6 @@ locals {
     "netmarkjp",
     "ibucho",
     "whywaita",
-    "tar-xzvff",
     "h-otter",
     "sharknasuhorse",
     "uplus",
