@@ -23,5 +23,6 @@ locals {
     "yuscarlet",
     "SouJimmy",
     "nagayon-935",
+    "csenet",
   ]
 }
