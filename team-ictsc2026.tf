@@ -44,5 +44,6 @@ locals {
     "yuki-frb",
     "sshash46",
     "bandapart",
+    "iij-katakai",
   ]
 }
