@@ -45,5 +45,7 @@ locals {
     "sshash46",
     "bandapart",
     "iij-katakai",
+    "tj-nanami",
+    "yas-nyan",
   ]
 }
