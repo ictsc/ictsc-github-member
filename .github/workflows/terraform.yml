@@ -27,7 +27,7 @@ jobs:
           private_key: ${{ secrets.PRIVATE_KEY }}
 
       - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v2
+        uses: hashicorp/setup-terraform@v4
         with:
           terraform_version: 1.3.6
 
